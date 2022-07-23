@@ -1,5 +1,5 @@
 import type { AppProps } from "next/app";
-import "./index.css";
+import "../index.css";
 
 function App({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
