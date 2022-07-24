@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h2 {
+    @apply text-3xl font-serif
+  }
+
+  section {
+    @apply py-16 px-8 sm:px-16 xl:px-24
+  }
+}
