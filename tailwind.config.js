@@ -10,6 +10,9 @@ module.exports = {
         serif: ["Playfair Display", ...defaultTheme.fontFamily.serif],
         sans: ["Quicksand", ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        
+      }
     },
   },
   plugins: [],
