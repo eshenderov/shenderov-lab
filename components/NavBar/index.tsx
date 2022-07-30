@@ -18,8 +18,6 @@ const NavBar: React.FC = () => {
         <NavItem to="team">Team</NavItem>
         <NavItem to="publications">Publications</NavItem>
         <NavItem to="research">Research</NavItem>
-        <NavItem to="lab">Lab</NavItem>
-        {/* <NavItem to="contact">Contact</NavItem> */}
       </ul>
     </nav>
   );

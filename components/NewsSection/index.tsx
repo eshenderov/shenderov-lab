@@ -6,4 +6,4 @@ const NewsSection = () => {
   );
 };
 
-export default NewSection;
+export default NewsSection;
