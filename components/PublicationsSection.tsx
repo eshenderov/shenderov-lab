@@ -24,7 +24,7 @@ const PublicationsSection: React.FC = () => {
   }, []);
 
   return (
-    <section id="publications" className="w-screen h-screen">
+    <section id="publications" className="h-screen w-screen">
       <h2>Publications</h2>
       {/* {publications.map((publication, i) => )} */}
     </section>

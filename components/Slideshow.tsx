@@ -8,7 +8,7 @@ import "swiper/css";
 const Slideshow = () => {
   return (
     <Swiper
-      className="h-96 rounded-2xl w-1/2 shadow-2xl"
+      className="h-96 w-1/2 rounded-2xl shadow-2xl"
       modules={[Autoplay, Pagination, Navigation]}
       slidesPerView={1}
       autoplay={{
@@ -19,12 +19,12 @@ const Slideshow = () => {
       loop
     >
       <SwiperSlide>
-        <div className="relative bg-black h-full">
+        <div className="relative h-full bg-black">
           <Image src="/shenderov-lab-logo.png" alt="sample" layout="fill" />
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="relative bg-blue-900 h-full"></div>
+        <div className="relative h-full bg-blue-900"></div>
       </SwiperSlide>
     </Swiper>
   );
