@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 // TODO: look into zoom css and slide prop
 
-const Slideshow = () => {
+const Gallery = () => {
   return (
     <Swiper
       className="h-96 w-1/2 rounded-2xl shadow-2xl"
@@ -26,8 +26,14 @@ const Slideshow = () => {
       <SwiperSlide>
         <div className="relative h-full bg-blue-900"></div>
       </SwiperSlide>
+      <SwiperSlide>
+        <div className="relative h-full bg-red-900"></div>
+      </SwiperSlide>
+      <SwiperSlide>
+        <div className="relative h-full bg-yellow-900"></div>
+      </SwiperSlide>
     </Swiper>
   );
 };
 
-export default Slideshow;
+export default Gallery;
