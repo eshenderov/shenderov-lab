@@ -4,10 +4,10 @@
 
 @layer base {
   h2 {
-    @apply pb-8 font-serif text-3xl;
+    @apply pb-4 font-sans text-3xl font-bold;
   }
 
   section {
-    @apply py-16 px-8 sm:px-16 xl:px-24;
+    @apply py-4 px-8 sm:px-16 xl:px-24;
   }
 }

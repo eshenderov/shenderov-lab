@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         serif: ["Playfair Display", ...defaultTheme.fontFamily.serif],
-        sans: ["Quicksand", ...defaultTheme.fontFamily.sans],
+        sans: ["Poppins", ...defaultTheme.fontFamily.sans],
       },
       colors: {
         

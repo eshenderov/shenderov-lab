@@ -79,7 +79,7 @@ const PublicationsSection: React.FC = () => {
   );
 
   return (
-    <section id="publications" className="h-screen w-screen">
+    <section id="publications" className="">
       <h2>Publications</h2>
       {publications?.map(({ title, uid, pubdate, source, authors }) => (
         <Publication

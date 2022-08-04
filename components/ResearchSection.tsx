@@ -2,7 +2,7 @@ import React from "react";
 
 const ResearchSection: React.FC = () => {
   return (
-    <section id="research" className="h-screen">
+    <section id="research" className="">
       <h2>Research</h2>
     </section>
   );
