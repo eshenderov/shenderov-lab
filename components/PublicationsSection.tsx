@@ -8,12 +8,18 @@ interface GetSearchResponse {
   };
 }
 
+interface Author {
+  name: string;
+  authtype: string;
+  clusterid: string;
+}
+
 interface ESummaryResult {
   title: string;
   uid: string;
   pubdate: string;
   source: string;
-  authors: string[];
+  authors: Author[];
 }
 
 interface SummaryResultPublications {
@@ -81,16 +87,18 @@ const PublicationsSection: React.FC = () => {
   return (
     <section id="publications" className="">
       <h2>Publications</h2>
-      {publications?.map(({ title, uid, pubdate, source, authors }) => (
-        <Publication
-          title={title}
-          uid={uid}
-          pubdate={pubdate}
-          journal={source}
-          authors={authors}
-          key={uid}
-        />
-      ))}
+      <ul className="flex flex-col gap-4 h-96 overflow-y-scroll">
+        {publications?.map(({ title, uid, pubdate, source, authors }) => (
+          <Publication
+            title={title}
+            uid={uid}
+            pubdate={pubdate}
+            journal={source}
+            authors={authors}
+            key={uid}
+          />
+        ))}
+      </ul>
     </section>
   );
 };
