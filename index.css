@@ -4,7 +4,7 @@
 
 @layer base {
   h2 {
-    @apply pb-4 font-sans text-3xl font-bold;
+    @apply pb-4 font-sans text-3xl font-black;
   }
 
   section {

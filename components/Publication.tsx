@@ -1,4 +1,5 @@
 import React from "react";
+import DOMPurify from "dompurify";
 
 interface Author {
   name: string;
@@ -21,9 +22,19 @@ const Publication: React.FC<Props> = ({
   journal,
   authors,
 }) => {
+  const createTitleMarkup = () => {
+    return {
+      __html: DOMPurify.sanitize(title, { USE_PROFILES: { html: true } }),
+    };
+  };
+
   return (
     <li className="">
-      <p className="font-semibold">{title}</p>
+      <p
+        className="font-semibold"
+        //  eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={createTitleMarkup()}
+      />
       <p>{pubdate}</p>
       <p>{journal}</p>
       <p>
