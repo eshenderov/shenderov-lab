@@ -8,6 +8,6 @@
   }
 
   section {
-    @apply py-4 px-8 sm:px-16 xl:px-24;
+    @apply relative py-4 px-8 sm:px-16 xl:px-24;
   }
 }

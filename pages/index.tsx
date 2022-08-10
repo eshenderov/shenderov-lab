@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import FrontSection from "../components/FrontSection";
 // import Footer from "../components/Footer";
 import Gallery from "../components/GallerySection";
 import NavBar from "../components/Navbar";
@@ -12,6 +13,7 @@ const Home: NextPage = () => {
     <div className="">
       <NavBar />
       <main>
+        <FrontSection />
         <TeamSection />
         <PublicationsSection />
         <ResearchSection />

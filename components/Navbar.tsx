@@ -4,7 +4,7 @@ import NavItem from "./NavItem";
 
 const NavBar: React.FC = () => {
   return (
-    <nav className="flex h-16 w-screen items-center justify-between bg-transparent">
+    <nav className="flex fixed h-16 w-screen items-center justify-between bg-transparent">
       <div className="flex aspect-square pl-4 h-full items-center justify-center">
         <div className="relative h-4/5 aspect-square">
           <Image
