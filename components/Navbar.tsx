@@ -4,9 +4,9 @@ import NavItem from "./NavItem";
 
 const NavBar: React.FC = () => {
   return (
-    <nav className="flex fixed h-16 w-screen items-center justify-between bg-transparent">
-      <div className="flex aspect-square pl-4 h-full items-center justify-center">
-        <div className="relative h-4/5 aspect-square">
+    <nav className="absolute z-50 flex h-20 w-full items-center justify-between bg-transparent">
+      <div className="flex aspect-square h-full items-center justify-center">
+        <div className="relative aspect-square h-4/5">
           <Image
             src="/shenderov-lab-logo.png"
             alt="Shenderov Lab Logo"

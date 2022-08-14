@@ -8,8 +8,9 @@ interface Props {
 const NavItem: React.FC<PropsWithChildren<Props>> = ({ to, children }) => {
   return (
     <li>
+      {/* color? */}
       <Link
-        className="cursor-pointer text-lg"
+        className="text-white cursor-pointer text-lg"
         to={to}
         duration={600}
         smooth="easeInOutQuart"

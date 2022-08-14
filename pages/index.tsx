@@ -10,7 +10,7 @@ import TeamSection from "../components/TeamSection";
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div className="bg-raisin">
       <NavBar />
       <main>
         <FrontSection />

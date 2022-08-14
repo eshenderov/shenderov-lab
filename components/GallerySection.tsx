@@ -20,18 +20,18 @@ const Gallery = () => {
         loop
       >
         <SwiperSlide>
-          <div className="relative h-full bg-black">
+          <div className="relative h-full bg-logo-pink">
             <Image src="/shenderov-lab-logo.png" alt="sample" layout="fill" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative h-full bg-blue-900"></div>
+          <div className="relative h-full bg-pink"></div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative h-full bg-red-900"></div>
+          <div className="relative h-full bg-peach"></div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative h-full bg-yellow-900"></div>
+          <div className="relative h-full bg-white"></div>
         </SwiperSlide>
       </Swiper>
     </section>

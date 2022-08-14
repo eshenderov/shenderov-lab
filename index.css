@@ -4,7 +4,7 @@
 
 @layer base {
   h2 {
-    @apply pb-4 font-sans text-3xl font-black;
+    @apply bg-gradient-to-r from-pink to-peach bg-clip-text pb-4 font-sans text-3xl font-bold text-transparent inline-block;
   }
 
   section {

@@ -10,9 +10,14 @@ module.exports = {
         serif: ["Playfair Display", ...defaultTheme.fontFamily.serif],
         sans: ["Poppins", ...defaultTheme.fontFamily.sans],
       },
-      colors: {
-        
-      }
+    },
+    colors: {
+      "logo-pink": "#e19696",
+      pink: "#dd5e89",
+      peach: "#f7bb97",
+      raisin: "#202030",
+      white: "#ffffff",
+      transparent: "transparent",
     },
   },
   plugins: [],

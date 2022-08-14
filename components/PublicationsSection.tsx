@@ -65,9 +65,10 @@ const fetchESummary = async (idlist: string[]): Promise<ESummaryResult[]> => {
     }
   );
 
-  const data = result.uids.reduce((acc: ESummaryResult[], cur: string) => {
-    return [...acc, result[cur]];
-  }, []);
+  const data = result.uids.reduce(
+    (acc: ESummaryResult[], cur: string) => [...acc, result[cur]],
+    []
+  );
 
   return data;
 };
@@ -87,18 +88,20 @@ const PublicationsSection: React.FC = () => {
   return (
     <section id="publications" className="">
       <h2>Publications</h2>
-      <ul className="flex flex-col gap-4 h-96 overflow-y-scroll">
-        {publications?.map(({ title, uid, pubdate, source, authors }) => (
-          <Publication
-            title={title}
-            uid={uid}
-            pubdate={pubdate}
-            journal={source}
-            authors={authors}
-            key={uid}
-          />
-        ))}
-      </ul>
+      <div className="h-[36rem] rounded-2xl bg-peach p-8">
+        <ul className="flex h-full flex-col gap-4 overflow-y-scroll">
+          {publications?.map(({ title, uid, pubdate, source, authors }) => (
+            <Publication
+              title={title}
+              uid={uid}
+              pubdate={pubdate}
+              journal={source}
+              authors={authors}
+              key={uid}
+            />
+          ))}
+        </ul>
+      </div>
     </section>
   );
 };
