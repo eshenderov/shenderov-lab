@@ -6,7 +6,7 @@ const TeamSection: React.FC = () => {
     <section id="team">
       <h2 className="text-center text-6xl pb-8 font-black text-sky">
         Meet The&nbsp;
-        <span className="bg-gradient-to-r from-logo-invert to-green-apple bg-clip-text text-transparent">
+        <span className="bg-gradient-to-r from-dragonfruit to-peach bg-clip-text text-transparent">
           Team
         </span>
       </h2>
@@ -14,7 +14,7 @@ const TeamSection: React.FC = () => {
       <div className="flex flex-col gap-12 lg:flex-row">
         <Gallery />
         <article className="">
-          <h3 className="pb-2 text-2xl font-medium text-green-apple">
+          <h3 className="pb-2 text-2xl font-medium text-sky">
             We have a lot of fun here...
           </h3>
           <span className="text-white text-opacity-75">

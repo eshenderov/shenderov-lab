@@ -87,7 +87,7 @@ const PublicationsSection: React.FC = () => {
 
   return (
     <section id="publications" className="">
-      <h2 className="bg-gradient-to-r inline-block bg-clip-text from-dragonfruit to-peach text-5xl pb-8 font-bold text-transparent">
+      <h2 className="bg-gradient-to-r inline-block bg-clip-text from-logo-invert to-green-apple text-5xl pb-8 font-bold text-transparent">
         Publications
       </h2>
       <div className="h-[36rem] rounded-2xl bg-peach p-8">

@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 
 const Gallery = () => {
   return (
-    <div className="aspect-video rounded-xl bg-gradient-to-r from-logo-invert to-green-apple p-1 lg:w-3/5">
+    <div className="aspect-video rounded-xl bg-gradient-to-r from-dragonfruit to-peach p-1 lg:w-3/5">
       <Swiper
         className="h-full rounded-lg"
         modules={[Autoplay, Pagination]}
@@ -26,10 +26,10 @@ const Gallery = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative h-full bg-dragonfruit"></div>
+          <div className="relative h-full bg-logo-invert"></div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative h-full bg-peach"></div>
+          <div className="relative h-full bg-green-apple"></div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="relative h-full bg-white"></div>
