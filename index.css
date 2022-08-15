@@ -3,11 +3,7 @@
 @tailwind utilities;
 
 @layer base {
-  h2 {
-    @apply bg-gradient-to-r from-pink to-peach bg-clip-text pb-4 font-sans text-3xl font-bold text-transparent inline-block;
-  }
-
   section {
-    @apply relative py-4 px-8 sm:px-16 xl:px-24;
+    @apply relative py-8 px-8 sm:px-32 xl:px-48;
   }
 }

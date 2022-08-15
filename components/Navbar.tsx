@@ -8,7 +8,7 @@ const NavBar: React.FC = () => {
       <div className="flex aspect-square h-full items-center justify-center">
         <div className="relative aspect-square h-4/5">
           <Image
-            src="/shenderov-lab-logo.png"
+            src="/logo.png"
             alt="Shenderov Lab Logo"
             layout="fill"
           />

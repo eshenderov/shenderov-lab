@@ -17,7 +17,7 @@ const App = ({ Component, pageProps }: AppProps) => {
     <QueryClientProvider client={queryClient}>
       <Head>
         <title>Shenderov Lab</title>
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/logo.png" />
       </Head>
       <Component {...pageProps} />
     </QueryClientProvider>

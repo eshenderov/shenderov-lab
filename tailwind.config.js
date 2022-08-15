@@ -12,8 +12,11 @@ module.exports = {
       },
     },
     colors: {
-      "logo-pink": "#e19696",
-      pink: "#dd5e89",
+      "logo": "#e19696",
+      "logo-invert": "#1e6969",
+      "green-apple": "#99d478",
+      sky: "#b3e3fe",
+      dragonfruit: "#dd5e89",
       peach: "#f7bb97",
       raisin: "#202030",
       white: "#ffffff",

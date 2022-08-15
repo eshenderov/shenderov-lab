@@ -87,7 +87,9 @@ const PublicationsSection: React.FC = () => {
 
   return (
     <section id="publications" className="">
-      <h2>Publications</h2>
+      <h2 className="bg-gradient-to-r inline-block bg-clip-text from-dragonfruit to-peach text-5xl pb-8 font-bold text-transparent">
+        Publications
+      </h2>
       <div className="h-[36rem] rounded-2xl bg-peach p-8">
         <ul className="flex h-full flex-col gap-4 overflow-y-scroll">
           {publications?.map(({ title, uid, pubdate, source, authors }) => (

@@ -1,11 +1,18 @@
 import React, { PropsWithChildren } from "react";
 
 interface Props {
-
+  headline: string;
 }
-// TODO: ask put pubs in citation format? hard code months? (originally truncated to 3 letters, journals not as simple)
-const NewsBlock: React.FC<PropsWithChildren<Props>> = ({children}) => {
-  return <div className="">{children}</div>;
+const NewsBlock: React.FC<PropsWithChildren<Props>> = ({
+  headline,
+  children,
+}) => {
+  return (
+    <div className="max-h-full rounded-lg bg-peach px-8 py-4">
+      <h3 className="text-lg">{headline}</h3>
+      {children}
+    </div>
+  );
 };
 
 export default NewsBlock;

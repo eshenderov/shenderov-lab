@@ -1,31 +1,32 @@
 /* eslint-disable import/no-unresolved */
 import Image from "next/image";
-import { Autoplay, Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-// TODO: look into zoom css and slide prop
+import "swiper/css/pagination";
 
 const Gallery = () => {
   return (
-    <section id="gallery">
+    <div className="aspect-video rounded-xl bg-gradient-to-r from-logo-invert to-green-apple p-1 lg:w-3/5">
       <Swiper
-        className="h-96 w-1/2 rounded-2xl shadow-2xl"
-        modules={[Autoplay, Pagination, Navigation]}
+        className="h-full rounded-lg"
+        modules={[Autoplay, Pagination]}
         slidesPerView={1}
         autoplay={{
-          delay: 2000,
+          delay: 4000,
           disableOnInteraction: false,
         }}
+        pagination={{ clickable: true }}
         centeredSlides
         loop
       >
         <SwiperSlide>
-          <div className="relative h-full bg-logo-pink">
+          <div className="bg-logo-dragonfruit relative h-full">
             <Image src="/shenderov-lab-logo.png" alt="sample" layout="fill" />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="relative h-full bg-pink"></div>
+          <div className="relative h-full bg-dragonfruit"></div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="relative h-full bg-peach"></div>
@@ -34,7 +35,7 @@ const Gallery = () => {
           <div className="relative h-full bg-white"></div>
         </SwiperSlide>
       </Swiper>
-    </section>
+    </div>
   );
 };
 
