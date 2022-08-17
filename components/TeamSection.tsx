@@ -14,7 +14,7 @@ const TeamSection: React.FC = () => {
       <div className="flex flex-col gap-12 lg:flex-row">
         <Gallery />
         <article className="">
-          <h3 className="pb-2 text-2xl font-medium text-sky">
+          <h3 className="pb-2 text-2xl font-medium text-peach">
             We have a lot of fun here...
           </h3>
           <span className="text-white text-opacity-75">

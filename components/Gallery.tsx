@@ -21,7 +21,7 @@ const Gallery = () => {
         loop
       >
         <SwiperSlide>
-          <div className="bg-logo-dragonfruit relative h-full">
+          <div className="bg-white relative h-full">
             <Image src="/shenderov-lab-logo.png" alt="sample" layout="fill" />
           </div>
         </SwiperSlide>

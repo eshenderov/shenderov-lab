@@ -1,5 +1,6 @@
 import React from "react";
 import DOMPurify from "dompurify";
+import ButtonLink from "./ButtonLink";
 
 interface Author {
   name: string;
@@ -29,27 +30,27 @@ const Publication: React.FC<Props> = ({
   };
 
   return (
-    <li className="">
-      <p
-        className="font-semibold"
-        //  eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={createTitleMarkup()}
-      />
-      <p>{pubdate}</p>
-      <p>{journal}</p>
-      <p>
-        {authors.map(({ name }, i) => (
-          <span
-            className={name === "Shenderov E" ? "font-semibold" : ""}
-            key={name}
-          >
-            {name + (i < authors.length - 1 ? ", " : "")}
-          </span>
-        ))}
-      </p>
-      <a href={`https://pubmed.ncbi.nlm.nih.gov/${uid}`}>
-        <button>Abstract</button>
-      </a>
+    <li className="flex ">
+      <div>
+        <p
+          className="font-semibold"
+          //  eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={createTitleMarkup()}
+        />
+        <p>{pubdate}</p>
+        <p>{journal}</p>
+        <p>
+          {authors.map(({ name }, i) => (
+            <span
+              className={name === "Shenderov E" ? "font-semibold" : ""}
+              key={name}
+            >
+              {name + (i < authors.length - 1 ? ", " : "")}
+            </span>
+          ))}
+        </p>
+      </div>
+      <ButtonLink href="INSERT_LINK_TO_JOIN_OR_EMAIL"/>
     </li>
   );
 };
