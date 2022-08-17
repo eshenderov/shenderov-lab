@@ -13,7 +13,7 @@ const TeamSection: React.FC = () => {
       <div className="pb-8"></div>
       <div className="flex flex-col gap-12 lg:flex-row">
         <Gallery />
-        <article className="">
+        <article className="w-full lg:w-2/5">
           <h3 className="pb-2 text-2xl font-medium text-peach">
             We have a lot of fun here...
           </h3>

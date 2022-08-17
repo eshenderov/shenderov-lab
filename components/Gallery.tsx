@@ -7,34 +7,37 @@ import "swiper/css/pagination";
 
 const Gallery = () => {
   return (
-    <div className="aspect-video rounded-xl bg-gradient-to-r from-dragonfruit to-peach p-1 lg:w-3/5">
-      <Swiper
-        className="h-full rounded-lg"
-        modules={[Autoplay, Pagination]}
-        slidesPerView={1}
-        autoplay={{
-          delay: 4000,
-          disableOnInteraction: false,
-        }}
-        pagination={{ clickable: true }}
-        centeredSlides
-        loop
-      >
-        <SwiperSlide>
-          <div className="bg-white relative h-full">
-            <Image src="/shenderov-lab-logo.png" alt="sample" layout="fill" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="relative h-full bg-logo-invert"></div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="relative h-full bg-green-apple"></div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="relative h-full bg-white"></div>
-        </SwiperSlide>
-      </Swiper>
+    // dont ask why there are two divs here - this is the result of the nightmare that is safari and an hour of guessing obscure fixes
+    <div className="w-full lg:w-3/5">
+      <div className="aspect-video rounded-xl bg-gradient-to-r from-dragonfruit to-peach p-1">
+        <Swiper
+          className="h-full rounded-lg"
+          modules={[Autoplay, Pagination]}
+          slidesPerView={1}
+          autoplay={{
+            delay: 4000,
+            disableOnInteraction: false,
+          }}
+          pagination={{ clickable: true }}
+          centeredSlides
+          loop
+        >
+          <SwiperSlide>
+            <div className="relative h-full bg-white">
+              <Image src="/shenderov-lab-logo.png" alt="sample" layout="fill" />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="relative h-full bg-logo-invert"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="relative h-full bg-green-apple"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="relative h-full bg-white"></div>
+          </SwiperSlide>
+        </Swiper>
+      </div>
     </div>
   );
 };
