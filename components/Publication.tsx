@@ -50,7 +50,7 @@ const Publication: React.FC<Props> = ({
           ))}
         </p>
       </div>
-      <ButtonLink href="INSERT_LINK_TO_JOIN_OR_EMAIL"/>
+      <ButtonLink href="INSERT_LINK_TO_JOIN_OR_EMAIL" />
     </li>
   );
 };

@@ -15,11 +15,10 @@ const NavBar: React.FC = () => {
         </div>
       </div>
       <ul className="flex gap-8 pr-8">
-        <NavItem to="team">Team</NavItem>
-        <NavItem to="publications">Publications</NavItem>
         <NavItem to="research">Research</NavItem>
+        <NavItem to="team">Team</NavItem>
         <NavItem to="news">News</NavItem>
-        <NavItem to="gallery">Gallery</NavItem>
+        <NavItem to="publications">Publications</NavItem>
       </ul>
     </nav>
   );
