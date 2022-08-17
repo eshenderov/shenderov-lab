@@ -1,17 +1,18 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import NavItem from "./NavItem";
 
 const NavBar: React.FC = () => {
   return (
     <nav className="absolute z-50 flex h-20 w-full items-center justify-between bg-transparent">
       <div className="flex aspect-square h-full items-center justify-center">
-        <div className="relative aspect-square h-4/5">
-          <Image
-            src="/logo.png"
-            alt="Shenderov Lab Logo"
-            layout="fill"
-          />
+        <div className="relative aspect-square h-3/4">
+          <Link href="/logo.png">
+            <a>
+              <Image src="/logo.png" alt="Shenderov Lab Logo" layout="fill" />
+            </a>
+          </Link>
         </div>
       </div>
       <ul className="flex gap-8 pr-8">
