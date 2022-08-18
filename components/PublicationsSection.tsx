@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Pagination  from "@mui/material/Pagination";
+import Pagination from "@mui/material/Pagination";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import Publication from "./Publication";
@@ -113,11 +113,11 @@ const PublicationsSection: React.FC = () => {
       <h2 className="inline-block bg-gradient-to-r from-logo-invert to-green-apple bg-clip-text pb-8 text-5xl font-bold text-transparent">
         Publications
       </h2>
-      <div className="flex h-[36rem] flex-col justify-between gap-4 rounded-2xl bg-peach p-8">
+      <div className="flex h-[40rem] flex-col justify-between gap-4 rounded-2xl bg-peach p-8">
         {isSearchError || isSummaryError ? (
           "Error retrieving publication data from PubMed, please try again later."
         ) : (
-          <ul className="flex h-full flex-col gap-4 overflow-y-auto">
+          <ul className="flex h-full flex-col gap-8 overflow-y-auto">
             {publications
               ?.slice(startIndex, endIndex)
               .map(({ title, uid, pubdate, source, authors }) => (

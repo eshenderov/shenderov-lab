@@ -31,7 +31,7 @@ const Publication: React.FC<Props> = ({
 
   return (
     // TODO: link on mobile?
-    <li className="flex gap-8">
+    <li className="flex gap-12">
       <div className="w-full">
         <p
           className="font-semibold"
