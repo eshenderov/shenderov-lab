@@ -8,7 +8,7 @@ interface Props {
 const ButtonLink: React.FC<Props> = ({ href }) => {
   return (
     <motion.a
-      className="group relative my-auto flex h-16 w-16 flex-none items-center justify-center"
+      className="group relative my-auto hidden h-16 w-16 items-center justify-center flex-none xl:flex"
       href={href}
       whileHover="hover"
     >

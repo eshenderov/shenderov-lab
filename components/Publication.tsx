@@ -31,7 +31,7 @@ const Publication: React.FC<Props> = ({
 
   return (
     // TODO: link on mobile?
-    <li className="flex gap-12">
+    <li className="flex gap-8">
       <div className="w-full">
         <p
           className="font-semibold"
@@ -51,7 +51,7 @@ const Publication: React.FC<Props> = ({
           ))}
         </p>
       </div>
-      <div className="border-r h-full border-raisin/25 hidden sm:block"/>
+      <div className="hidden h-full border-r border-raisin/25 xl:block" />
       <ButtonLink href={`https://pubmed.ncbi.nlm.nih.gov/${uid}`} />
     </li>
   );
