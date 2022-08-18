@@ -30,8 +30,9 @@ const Publication: React.FC<Props> = ({
   };
 
   return (
-    <li className="flex ">
-      <div>
+    // TODO: link on mobile?
+    <li className="flex gap-8">
+      <div className="w-full">
         <p
           className="font-semibold"
           //  eslint-disable-next-line react/no-danger
@@ -50,7 +51,8 @@ const Publication: React.FC<Props> = ({
           ))}
         </p>
       </div>
-      <ButtonLink href="INSERT_LINK_TO_JOIN_OR_EMAIL" />
+      <div className="border-r h-full border-raisin/25 hidden sm:block"/>
+      <ButtonLink href={`https://pubmed.ncbi.nlm.nih.gov/${uid}`} />
     </li>
   );
 };

@@ -7,3 +7,15 @@
     @apply relative py-8 px-8 sm:px-32 xl:px-48;
   }
 }
+
+.circle {
+  stroke-dasharray: 188.52174377441406;
+  stroke-dashoffset: 188.52174377441406;
+  transform: rotate(180deg);
+  transform-origin: center;
+  transition: stroke-dashoffset 0.25s ease-in-out;
+}
+
+.circle:hover {
+  stroke-dashoffset: 0;
+}
