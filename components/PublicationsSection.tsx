@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Pagination } from "@mui/material";
+import Pagination  from "@mui/material/Pagination";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 import Publication from "./Publication";
