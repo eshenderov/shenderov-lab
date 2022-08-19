@@ -7,9 +7,30 @@ const NewsSection = () => {
         News
       </h2>
       <div className="grid gap-4 lg:grid-cols-2 2xl:grid-cols-3">
-        <NewsBlock headline="test"></NewsBlock>
-        <NewsBlock headline="test"></NewsBlock>
-        <NewsBlock headline="test"></NewsBlock>
+        <NewsBlock headline="This is a headline woohoo" date="August 18, 2022">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          oluptatum voluptatem aperiam? Quisquam, maiores animi alias aspernatur
+          voluptates, cumque rerum qui velit perspiciatis saepe possimus? Velit,
+          necessitatibus.
+        </NewsBlock>
+        <NewsBlock headline="This is a headline woohoo" date="August 18, 2022">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          oluptatum voluptatem aperiam? Quisquam, maiores animi alias aspernatur
+          voluptates, cumque rerum qui velit perspiciatis saepe possimus? Velit,
+          necessitatibus.
+        </NewsBlock>
+        <NewsBlock headline="This is a headline woohoo" date="August 18, 2022">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          oluptatum voluptatem aperiam? Quisquam, maiores animi alias aspernatur
+          voluptates, cumque rerum qui velit perspiciatis saepe possimus? Velit,
+          necessitatibus.
+        </NewsBlock>
+        <NewsBlock headline="This is a headline woohoo" date="August 18, 2022">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
+          oluptatum voluptatem aperiam? Quisquam, maiores animi alias aspernatur
+          voluptates, cumque rerum qui velit perspiciatis saepe possimus? Velit,
+          necessitatibus.
+        </NewsBlock>
       </div>
     </section>
   );

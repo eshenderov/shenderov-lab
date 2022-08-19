@@ -5,13 +5,13 @@ import TeamMember from "./TeamMember";
 const TeamSection: React.FC = () => {
   return (
     <section id="team">
-      <h2 className="pb-8 text-center text-6xl font-black text-sky">
+      <h2 className="pb-8 xl:pb-12 text-center text-6xl font-black text-sky">
         Meet The&nbsp;
         <span className="bg-gradient-to-r from-dragonfruit to-peach bg-clip-text text-transparent">
           Team
         </span>
       </h2>
-      <div className="pb-8 flex flex-wrap justify-center">
+      <div className="pb-8 xl:pb-12 flex flex-wrap justify-center">
         <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
         <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
         <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
