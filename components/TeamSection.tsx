@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+import ButtonLink from "./ButtonLink";
 import Gallery from "./Gallery";
 import TeamMember from "./TeamMember";
 
@@ -33,7 +35,10 @@ const TeamSection: React.FC = () => {
               aliquid, dolor voluptatem.
             </span>
           </div>
-          {/* <div className="text-2xl font-medium text-green-apple">Join us</div> */}
+          <motion.div className="flex items-center justify-end gap-4 text-2xl font-medium text-peach">
+            <p>Join us</p>
+            <ButtonLink className="flex" href="mailto:TODO" />
+          </motion.div>
         </article>
       </div>
     </section>

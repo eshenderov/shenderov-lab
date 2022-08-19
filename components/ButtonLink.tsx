@@ -2,13 +2,14 @@ import React from "react";
 import { motion } from "framer-motion";
 
 interface Props {
+  className: string;
   href: string;
 }
 
-const ButtonLink: React.FC<Props> = ({ href }) => {
+const ButtonLink: React.FC<Props> = ({ className, href }) => {
   return (
     <motion.a
-      className="group relative my-auto hidden h-16 w-16 flex-none items-center justify-center xl:flex"
+      className={`group relative my-auto h-16 w-16 flex-none items-center justify-center ${className}`}
       href={href}
       whileHover="hover"
     >

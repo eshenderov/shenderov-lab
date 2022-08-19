@@ -6,4 +6,6 @@ const FrontSection = () => {
   );
 };
 
+// TODO: logo in bg???
+
 export default FrontSection;

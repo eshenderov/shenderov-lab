@@ -34,6 +34,7 @@ const Publication: React.FC<Props> = ({
     <li className="flex gap-8">
       <div className="w-full">
         <p
+          className="font-bold"
           //  eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={createTitleMarkup()}
         />
@@ -51,7 +52,7 @@ const Publication: React.FC<Props> = ({
         </p>
       </div>
       <div className="hidden h-full border-r border-peach/50 xl:block" />
-      <ButtonLink href={`https://pubmed.ncbi.nlm.nih.gov/${uid}`} />
+      <ButtonLink className="hidden xl:flex" href={`https://pubmed.ncbi.nlm.nih.gov/${uid}`} />
     </li>
   );
 };
