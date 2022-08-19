@@ -8,20 +8,20 @@ interface Props {
 const ButtonLink: React.FC<Props> = ({ href }) => {
   return (
     <motion.a
-      className="group relative my-auto hidden h-16 w-16 items-center justify-center flex-none xl:flex"
+      className="group relative my-auto hidden h-16 w-16 flex-none items-center justify-center xl:flex"
       href={href}
       whileHover="hover"
     >
       <div className="absolute rounded-full">
         <svg width="64" height="64">
           <circle
-            className="fill-transparent stroke-raisin/25 stroke-2"
+            className="fill-transparent stroke-peach/50 stroke-2"
             r="30"
             cx="32"
             cy="32"
           ></circle>
           <motion.circle
-            className="circle origin-center rotate-180 fill-transparent stroke-logo-invert stroke-2"
+            className="circle origin-center rotate-180 fill-transparent stroke-peach stroke-2"
             r="30"
             cx="32"
             cy="32"
@@ -39,6 +39,7 @@ const ButtonLink: React.FC<Props> = ({ href }) => {
         </svg>
       </div>
       <motion.svg
+        className="stroke-peach"
         width="24"
         height="24"
         viewBox="0 0 16 16"

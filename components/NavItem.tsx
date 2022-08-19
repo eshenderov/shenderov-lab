@@ -9,7 +9,7 @@ const NavItem: React.FC<PropsWithChildren<Props>> = ({ to, children }) => {
   return (
     <li>
       <Link
-        className="text-sky cursor-pointer font-medium text-lg"
+        className="text-green-apple cursor-pointer font-medium text-lg"
         to={to}
         duration={600}
         smooth="easeInOutQuart"

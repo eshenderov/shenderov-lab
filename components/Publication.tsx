@@ -34,7 +34,6 @@ const Publication: React.FC<Props> = ({
     <li className="flex gap-8">
       <div className="w-full">
         <p
-          className="font-semibold"
           //  eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={createTitleMarkup()}
         />
@@ -43,7 +42,7 @@ const Publication: React.FC<Props> = ({
         <p>
           {authors.map(({ name }, i) => (
             <span
-              className={name === "Shenderov E" ? "font-semibold" : ""}
+              className={name === "Shenderov E" ? "font-bold" : ""}
               key={name}
             >
               {name + (i < authors.length - 1 ? ", " : "")}
@@ -51,7 +50,7 @@ const Publication: React.FC<Props> = ({
           ))}
         </p>
       </div>
-      <div className="hidden h-full border-r border-raisin/25 xl:block" />
+      <div className="hidden h-full border-r border-peach/50 xl:block" />
       <ButtonLink href={`https://pubmed.ncbi.nlm.nih.gov/${uid}`} />
     </li>
   );

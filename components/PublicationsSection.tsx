@@ -110,10 +110,10 @@ const PublicationsSection: React.FC = () => {
 
   return (
     <section id="publications">
-      <h2 className="inline-block bg-gradient-to-r from-logo-invert to-green-apple bg-clip-text pb-8 text-5xl font-bold text-transparent">
+      <h2 className="inline-block bg-gradient-to-r from-dragonfruit to-peach bg-clip-text pb-8 text-5xl font-extrabold text-transparent">
         Publications
       </h2>
-      <div className="flex h-[40rem] flex-col justify-between gap-4 rounded-2xl bg-peach p-8">
+      <div className="flex h-[38rem] flex-col justify-between gap-4 rounded-2xl bg-raisin-bright p-8 text-white">
         {isSearchError || isSummaryError ? (
           "Error retrieving publication data from PubMed, please try again later."
         ) : (
@@ -135,7 +135,7 @@ const PublicationsSection: React.FC = () => {
         <div className="flex justify-center">
           <Pagination
             count={pageCount}
-            variant="outlined"
+            color="primary"
             shape="rounded"
             onChange={handlePageChange}
           />
