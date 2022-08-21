@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Footer from "../components/Footer";
 import FrontSection from "../components/FrontSection";
-import NavBar from "../components/Navbar";
+import NavBar from "../components/NavBar";
 import NewsSection from "../components/NewsSection";
 import PublicationsSection from "../components/PublicationsSection";
 import ResearchSection from "../components/ResearchSection";

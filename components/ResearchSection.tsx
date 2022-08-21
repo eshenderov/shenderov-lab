@@ -1,5 +1,6 @@
 import React from "react";
 
+// relative absolute right side, left side normal
 const ResearchSection: React.FC = () => {
   return (
     <section id="research" className="">
