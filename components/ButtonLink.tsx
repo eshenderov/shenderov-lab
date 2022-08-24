@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 interface Props {
@@ -6,7 +5,7 @@ interface Props {
   href: string;
 }
 
-const ButtonLink: React.FC<Props> = ({ className, href }) => {        
+const ButtonLink = ({ className, href }: Props) => {        
   return (      
     <motion.a
       className={`group relative my-auto h-16 w-16 flex-none items-center justify-center ${className}`}

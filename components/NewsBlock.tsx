@@ -1,15 +1,10 @@
-import React, { PropsWithChildren } from "react";
-
 interface Props {
   headline: string;
   date: string;
+  children: string;
 }
 
-const NewsBlock: React.FC<PropsWithChildren<Props>> = ({
-  headline,
-  date,
-  children,
-}) => {
+const NewsBlock = ({ headline, date, children }: Props) => {
   return (
     <div className="max-h-full rounded-2xl">
       <h3 className="text-2xl font-medium text-peach">{headline}</h3>

@@ -1,4 +1,3 @@
-import React from "react";
 import DOMPurify from "dompurify";
 import ButtonLink from "./ButtonLink";
 
@@ -16,13 +15,7 @@ interface Props {
   authors: Author[];
 }
 
-const Publication: React.FC<Props> = ({
-  title,
-  uid,
-  pubdate,
-  journal,
-  authors,
-}) => {
+const Publication = ({ title, uid, pubdate, journal, authors }: Props) => {
   const createTitleMarkup = () => {
     return {
       __html: DOMPurify.sanitize(title, { USE_PROFILES: { html: true } }),
@@ -52,7 +45,10 @@ const Publication: React.FC<Props> = ({
         </p>
       </div>
       <div className="hidden h-full border-r border-peach/50 xl:block" />
-      <ButtonLink className="hidden xl:flex" href={`https://pubmed.ncbi.nlm.nih.gov/${uid}`} />
+      <ButtonLink
+        className="hidden xl:flex"
+        href={`https://pubmed.ncbi.nlm.nih.gov/${uid}`}
+      />
     </li>
   );
 };

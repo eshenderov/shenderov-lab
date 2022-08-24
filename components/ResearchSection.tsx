@@ -1,6 +1,6 @@
-import React from "react";
+import { useEffect } from "react";
 
-const ResearchSection: React.FC = () => {
+const ResearchSection = () => {
   return (
     <section id="research" className="relative">
       <h2>Research</h2>

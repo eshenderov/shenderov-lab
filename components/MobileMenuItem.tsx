@@ -1,14 +1,12 @@
-import React, { PropsWithChildren } from "react";
 import Link from "next/link";
 
 interface Props {
   to: string;
+  children: string;
 }
 
-const MobileNavItem: React.FC<PropsWithChildren<Props>> = ({
-  to,
-  children,
-}) => {
+// TODO: delete and link to correct section
+const MobileNavItem = ({ to, children }: Props) => {
   return (
     <li className="text-blue-dark hover:text-blue-light text-center text-2xl font-bold duration-200">
       <Link href={to}>

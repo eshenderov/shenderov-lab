@@ -77,7 +77,7 @@ const fetchSummary = async (idlist: string[]): Promise<SummaryResult[]> => {
   return data;
 };
 
-const PublicationsSection: React.FC = () => {
+const PublicationsSection = () => {
   const [page, setPage] = useState<number>(0);
 
   const perPage = 3;

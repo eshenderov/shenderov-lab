@@ -1,7 +1,5 @@
 import { motion } from "framer-motion";
 
-// yoinked straight from https://codesandbox.io/s/framer-motion-side-menu-mx2rw?from-embed=&file=/src/MenuToggle.tsx
-
 const Path = (props: any) => {
   return (
     <motion.path
@@ -19,10 +17,10 @@ interface Props {
   handleClick: () => void;
 }
 
-const MobileMenuToggle: React.FC<Props> = ({ open, handleClick }) => {
+const MobileMenuToggle = ({ open, handleClick }: Props) => {
   return (
     <motion.button
-      className="block mr-6 sm:hidden"
+      className="mr-6 block sm:hidden"
       animate={open ? "open" : "closed"}
       onClick={handleClick}
     >

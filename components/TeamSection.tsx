@@ -1,10 +1,9 @@
-import React from "react";
 import { motion } from "framer-motion";
 import ButtonLink from "./ButtonLink";
 import Gallery from "./Gallery";
 import TeamMember from "./TeamMember";
 
-const TeamSection: React.FC = () => {
+const TeamSection = () => {
   return (
     <section id="team">
       <h2 className="pb-8 text-center text-6xl font-black text-sky xl:pb-12">
