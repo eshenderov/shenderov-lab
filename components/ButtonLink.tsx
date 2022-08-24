@@ -6,8 +6,8 @@ interface Props {
   href: string;
 }
 
-const ButtonLink: React.FC<Props> = ({ className, href }) => {
-  return (
+const ButtonLink: React.FC<Props> = ({ className, href }) => {        
+  return (      
     <motion.a
       className={`group relative my-auto h-16 w-16 flex-none items-center justify-center ${className}`}
       href={href}
