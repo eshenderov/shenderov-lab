@@ -5,14 +5,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
-// TODO: rounded2xl
 const Gallery = () => {
   return (
     // dont ask why there are two divs here - this is the result of the nightmare that is safari combined with an hour of guessing obscure fixes
     <div className="w-full lg:w-3/5">
-      <div className="aspect-video rounded-xl bg-gradient-to-r from-dragonfruit to-peach p-1">
+      <div className="aspect-video rounded-2xl bg-gradient-to-r from-dragonfruit to-peach p-1">
         <Swiper
-          className="h-full rounded-lg"
+          className="h-full rounded-xl"
           modules={[Autoplay, Pagination]}
           slidesPerView={1}
           autoplay={{
