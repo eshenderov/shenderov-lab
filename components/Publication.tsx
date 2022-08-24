@@ -24,6 +24,7 @@ const Publication = ({ title, uid, pubdate, journal, authors }: Props) => {
 
   return (
     // TODO: link on mobile?
+    // TODO: remove divider?
     <li className="flex gap-8">
       <div className="w-full">
         <p

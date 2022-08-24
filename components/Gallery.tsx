@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
+// TODO: rounded2xl
 const Gallery = () => {
   return (
     // dont ask why there are two divs here - this is the result of the nightmare that is safari combined with an hour of guessing obscure fixes
