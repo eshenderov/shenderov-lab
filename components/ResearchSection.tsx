@@ -12,7 +12,7 @@ const ResearchSection = () => {
         </div>
         <div className="sticky top-0 h-screen">
           <div className="relative h-full">
-            <div className="absolute top-0 bottom-0 my-auto aspect-video w-full bg-logo"></div>
+            <div className="absolute top-0 bottom-0 my-auto aspect-video w-full rounded-2xl bg-logo"></div>
           </div>
         </div>
       </div>

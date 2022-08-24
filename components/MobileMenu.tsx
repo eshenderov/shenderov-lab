@@ -10,16 +10,16 @@ const MobileMenu = ({ open }: Props) => {
     <AnimatePresence>
       {open && (
         <motion.div
-          className="border-b-blue-dark absolute top-20 left-0 w-full border-b bg-white sm:hidden"
+          className="border-b-blue-dark absolute top-20 left-0 z-50 w-full border-b border-b-peach bg-raisin sm:hidden"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
         >
-          <ul className="m-4 flex-col space-y-2 text-center">
-            <NavItem to="/">Register</NavItem>
-            <NavItem to="/info">Info</NavItem>
-            <NavItem to="/updates">Updates</NavItem>
-            <NavItem to="/board">Board</NavItem>
+          <ul className="flex flex-col gap-4 p-4 text-center">
+            <NavItem to="research">Research</NavItem>
+            <NavItem to="team">Team</NavItem>
+            <NavItem to="news">News</NavItem>
+            <NavItem to="publications">Publications</NavItem>
           </ul>
         </motion.div>
       )}

@@ -8,9 +8,6 @@ import ResearchSection from "../components/ResearchSection";
 import TeamSection from "../components/TeamSection";
 
 const Home: NextPage = () => {
-  // TODO: use ref.current.scrolltop to transition rgb values for bg color
-  // [r/g/b]Diff = rgb1 - rgb2
-  // bg = rgb1 + (rgbDiff * (scrollposend - scrollposcur / scrollposend - scrollposstart))
   return (
     <div className="bg-raisin">
       <NavBar />
