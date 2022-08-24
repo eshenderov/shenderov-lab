@@ -4,11 +4,7 @@ import { useScroll } from "framer-motion";
 const ResearchSection = () => {
   const ref = useRef(null);
 
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    // TODO: will prob look weird but i dont feel like messing with this anymore today
-    offset: ["start end", "end start"],
-  });
+  const { scrollYProgress } = useScroll({ target: ref });
 
   useEffect(() => {
     return scrollYProgress.onChange((latest) => {
@@ -17,9 +13,9 @@ const ResearchSection = () => {
   }, []);
 
   return (
-    <section ref={ref} id="research" className="relative">
+    <section id="research" className="relative">
       <h2>Research</h2>
-      <div className="grid grid-cols-2">
+      <div ref={ref} className="grid grid-cols-2">
         <div className="">
           <div className="h-screen"></div>
           <div className="h-screen"></div>
