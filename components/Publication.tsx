@@ -24,8 +24,7 @@ const Publication = ({ title, uid, pubdate, journal, authors }: Props) => {
 
   return (
     // TODO: link on mobile?
-    // TODO: remove divider?
-    <li className="flex gap-8">
+    <li className="flex gap-12">
       <div className="w-full">
         <p
           className="font-bold"
@@ -45,7 +44,6 @@ const Publication = ({ title, uid, pubdate, journal, authors }: Props) => {
           ))}
         </p>
       </div>
-      <div className="hidden h-full border-r border-peach/50 xl:block" />
       <ButtonLink
         className="hidden xl:flex"
         href={`https://pubmed.ncbi.nlm.nih.gov/${uid}`}

@@ -113,11 +113,11 @@ const PublicationsSection = () => {
       <h2 className="inline-block bg-gradient-to-r from-dragonfruit to-peach bg-clip-text pb-8 text-5xl font-extrabold text-transparent">
         Publications
       </h2>
-      <div className="flex h-[38rem] flex-col justify-between gap-4 rounded-2xl bg-raisin-bright p-8 text-white">
+      <div className="flex h-[42rem] flex-col justify-between gap-4 rounded-2xl bg-raisin-bright p-8 sm:p-12 text-white">
         {isSearchError || isSummaryError ? (
           "Error retrieving publication data from PubMed, please try again later."
         ) : (
-          <ul className="flex h-full flex-col gap-8 overflow-y-auto">
+          <ul className="flex h-full flex-col gap-12 overflow-y-auto">
             {publications
               ?.slice(startIndex, endIndex)
               .map(({ title, uid, pubdate, source, authors }) => (
