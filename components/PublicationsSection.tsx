@@ -110,7 +110,7 @@ const PublicationsSection = () => {
 
   return (
     <section id="publications">
-      <h2 className="inline-block bg-gradient-to-r from-dragonfruit to-peach bg-clip-text pb-16 text-6xl font-black text-transparent">
+      <h2 className="inline-block bg-gradient-to-r from-dragonfruit to-peach bg-clip-text pb-12 text-6xl font-black text-transparent">
         Publications
       </h2>
       <div className="flex h-[44rem] flex-col justify-between gap-4 rounded-2xl bg-raisin-bright p-8 text-white sm:p-12">
