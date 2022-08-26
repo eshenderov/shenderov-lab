@@ -7,7 +7,6 @@ import PublicationsSection from "../components/PublicationsSection";
 import ResearchSection from "../components/ResearchSection";
 import TeamSection from "../components/TeamSection";
 
-// TODO: increase space
 const Home: NextPage = () => {
   return (
     <div className="bg-raisin">

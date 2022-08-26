@@ -6,13 +6,13 @@ import TeamMember from "./TeamMember";
 const TeamSection = () => {
   return (
     <section id="team">
-      <h2 className="pb-8 text-center text-6xl font-black text-sky xl:pb-12">
+      <h2 className="text-center text-6xl font-black text-sky pb-16">
         Meet The&nbsp;
         <span className="bg-gradient-to-r from-dragonfruit to-peach bg-clip-text text-transparent">
           Team
         </span>
       </h2>
-      <div className="flex flex-wrap justify-center pb-8 xl:pb-12">
+      <div className="flex flex-wrap justify-center pb-12">
         <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
         <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
         <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
@@ -21,7 +21,7 @@ const TeamSection = () => {
         <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
         <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
       </div>
-      <div className="flex flex-col gap-12 lg:flex-row">
+      <div className="flex flex-col gap-16 lg:flex-row">
         <Gallery />
         <article className="flex w-full flex-col justify-between lg:w-2/5">
           <div>

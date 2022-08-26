@@ -4,7 +4,7 @@
 
 @layer base {
   section {
-    @apply relative py-8 px-8 sm:px-32 xl:px-48;
+    @apply relative py-16 px-12 sm:px-32 xl:px-48;
   }
 }
 
