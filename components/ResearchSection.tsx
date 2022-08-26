@@ -1,16 +1,25 @@
-import { useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useScroll } from "framer-motion";
+import ResearchImage from "./ResearchImage";
+
+// array of paths to images
+// left to right is the order in which the images are displayed when the page is scrolled downwards
+const researchImages = ["/alex.jpg", "/logo.png"];
+
+const breakpoint = 1 / researchImages.length;
 
 const ResearchSection = () => {
+  const [y, setY] = useState(0);
+
   const ref = useRef(null);
 
   const { scrollYProgress } = useScroll({ target: ref });
 
   useEffect(() => {
     return scrollYProgress.onChange((latest) => {
-      console.log(latest);
+      setY(latest);
     });
-  }, []);
+  }, [scrollYProgress]);
 
   return (
     <section id="research" className="relative">
@@ -38,7 +47,13 @@ const ResearchSection = () => {
         </div>
         <div className="sticky top-0 h-screen">
           <div className="relative h-full">
-            <div className="absolute top-0 bottom-0 my-auto aspect-video w-full rounded-2xl bg-logo"></div>
+            {researchImages.map((src, i) => (
+              <ResearchImage
+                src={src}
+                show={y >= breakpoint * i && y < breakpoint * (i + 1)}
+                key={src}
+              />
+            ))}
           </div>
         </div>
       </div>

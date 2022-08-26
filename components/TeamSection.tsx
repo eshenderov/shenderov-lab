@@ -6,7 +6,7 @@ import TeamMember from "./TeamMember";
 const TeamSection = () => {
   return (
     <section id="team">
-      <h2 className="pb-8 text-center text-6xl font-black text-sky">
+      <h2 className="pb-8 text-center text-6xl font-black text-green-apple">
         Meet The&nbsp;
         <span className="bg-gradient-to-r from-dragonfruit to-peach bg-clip-text text-transparent">
           Team
