@@ -28,7 +28,7 @@ const App = ({ Component, pageProps }: AppProps) => {
       <ThemeProvider theme={theme}>
         <Head>
           <title>Shenderov Lab</title>
-          <link rel="icon" href="/logo.png" />
+          <link rel="icon" href="/favicon.png" />
         </Head>
         <Component {...pageProps} />
       </ThemeProvider>
