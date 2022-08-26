@@ -4,10 +4,14 @@
 
 @layer base {
   section {
-    @apply relative py-16 px-12 sm:px-32 xl:px-48;
+    @apply relative py-16 px-12 sm:px-32 xl:px-48 2xl:px-60;
   }
 }
 
 .MuiButtonBase-root {
-  color: white;
+  color: #e9e9ea;
+}
+
+.swiper-pagination-bullet-active {
+  background: #f7bb97 !important;
 }

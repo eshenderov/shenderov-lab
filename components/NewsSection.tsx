@@ -3,7 +3,7 @@ import NewsBlock from "./NewsBlock";
 const NewsSection = () => {
   return (
     <section id="news">
-      <h2 className="inline-block bg-gradient-to-r from-dragonfruit to-peach bg-clip-text pb-12 text-5xl font-extrabold text-transparent">
+      <h2 className="inline-block bg-gradient-to-r from-dragonfruit to-peach bg-clip-text pb-16 text-6xl font-black text-transparent">
         News
       </h2>
       <div className="grid gap-12 lg:grid-cols-2 2xl:grid-cols-3">

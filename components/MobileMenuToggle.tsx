@@ -3,9 +3,8 @@ import { motion } from "framer-motion";
 const Path = (props: any) => {
   return (
     <motion.path
-      fill="transparent"
+      className="stroke-green-apple"
       strokeWidth="3"
-      stroke="hsl(0, 0%, 18%)"
       strokeLinecap="round"
       {...props}
     />
@@ -24,7 +23,7 @@ const MobileMenuToggle = ({ open, handleClick }: Props) => {
       animate={open ? "open" : "closed"}
       onClick={handleClick}
     >
-      <svg width="23" height="23" viewBox="0 0 23 23">
+      <svg className="" width="23" height="23" viewBox="0 0 23 23">
         <Path
           variants={{
             closed: { d: "M 2 2.5 L 20 2.5" },
