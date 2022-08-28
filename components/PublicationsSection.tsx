@@ -113,7 +113,7 @@ const PublicationsSection = () => {
       <h2 className="inline-block bg-gradient-to-r from-dragonfruit to-peach bg-clip-text pb-12 text-6xl font-black text-transparent">
         Publications
       </h2>
-      <div className="flex h-[44rem] flex-col justify-between gap-4 rounded-2xl bg-raisin-bright p-8 text-white sm:p-12">
+      <div className="flex h-[42rem] flex-col justify-between gap-4 rounded-2xl bg-raisin-bright p-8 text-white sm:gap-6 sm:p-12">
         {isSearchError || isSummaryError ? (
           "Error retrieving publication data from PubMed, please try again later."
         ) : (

@@ -12,6 +12,10 @@
   color: #e9e9ea;
 }
 
+.MuiPaginationItem-ellipsis {
+  color: #e9e9ea;
+}
+
 .swiper-pagination-bullet-active {
   background: #f7bb97 !important;
 }

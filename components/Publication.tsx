@@ -36,7 +36,7 @@ const Publication = ({ title, uid, pubdate, journal, authors }: Props) => {
         <p>
           {authors.map(({ name }, i) => (
             <span
-              className={name === "Shenderov E" ? "font-bold" : ""}
+              className={name === "Shenderov E" ? "font-extrabold" : ""}
               key={name}
             >
               {name + (i < authors.length - 1 ? ", " : "")}

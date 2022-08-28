@@ -25,7 +25,7 @@ TODO: extra slides into component and test black bars for non 16/9 aspect ratio,
 
 - Add the image to the `public` directory
 - Navigate to components/Gallery.tsx
--
+- 
 
 ## Creating a News Block
 
