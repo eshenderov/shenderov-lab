@@ -4,11 +4,12 @@ import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import Slide from "./Slide";
 
 const Gallery = () => {
   return (
     // dont ask why there are two divs here - this is the result of the nightmare that is safari combined with an hour of guessing obscure fixes
-    <div className="w-full lg:w-3/5 my-auto">
+    <div className="my-auto w-full lg:w-3/5">
       <div className="aspect-video rounded-2xl bg-gradient-to-r from-dragonfruit to-peach p-1">
         <Swiper
           className="h-full rounded-xl"
@@ -23,20 +24,7 @@ const Gallery = () => {
           loop
         >
           {/* add slides here */}
-          <SwiperSlide>
-            <div className="relative h-full bg-white">
-              <Image src="/logo.png" alt="sample" layout="fill" />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="relative h-full bg-logo-invert"></div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="relative h-full bg-green-apple"></div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="relative h-full bg-white"></div>
-          </SwiperSlide>
+          <Slide src="/alex.jpg" alt="Alex looking at trees or something" />
         </Swiper>
       </div>
     </div>
