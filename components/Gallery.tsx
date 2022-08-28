@@ -22,6 +22,7 @@ const Gallery = () => {
           centeredSlides
           loop
         >
+          {/* add slides here */}
           <SwiperSlide>
             <div className="relative h-full bg-white">
               <Image src="/logo.png" alt="sample" layout="fill" />

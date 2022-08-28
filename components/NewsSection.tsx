@@ -7,6 +7,7 @@ const NewsSection = () => {
         News
       </h2>
       <div className="grid gap-12 lg:grid-cols-2 2xl:grid-cols-3">
+        {/* add news blocks inside here. top to bottom in code equates to left to right, top to bottom in the website. */}
         <NewsBlock headline="This is a headline woohoo" date="August 18, 2022">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
           oluptatum voluptatem aperiam? Quisquam, maiores animi alias aspernatur

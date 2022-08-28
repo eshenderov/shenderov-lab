@@ -6,6 +6,6 @@ const FrontSection = () => {
   );
 };
 
-// TODO: logo in bg???
+// TODO: logo in bg??? (preferably when almost done for rollback)
 
 export default FrontSection;
