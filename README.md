@@ -13,24 +13,22 @@
 
 ## Adding a Team Member
 
-TODO: include details about aspect ratio after testing
-
 - Add the team member's picture to the `public` directory
+- Images without a square aspect ratio will be clipped; manually clip the image if it doesn't show up centered
 - Navigate to `components/TeamSection.tsx`
-- Add the team member with `<TeamMember name={name} position={position} src={/NAME_OF_PICTURE_FILE} />`
+- Add the team member with `<TeamMember name={name} position={position} src={/NAME_OF_FILE} />`
 
 ## Adding Slides to the Lab Gallery
 
-TODO: extra slides into component and test black bars for non 16/9 aspect ratio, update details
-
 - Add the image to the `public` directory
+- Images without a 16/9 aspect ratio will face the black bars of doom
 - Navigate to components/Gallery.tsx
-- 
+- Add the slide with `<Slide src={/NAME_OF_FILE} alt={DESCRIPTION_OF_IMAGE} />`
 
 ## Creating a News Block
 
 - Navigate to `components/NewsSection.tsx`
 - Add the news block with `<NewsBlock headline={headline} date={date}>{body text here}</NewsBlock>`
-- Delete the least recent news block in order to keep it at 6
+- Keep the number of NewsBlocks at a maximum of 6 by deleting the least recent one
 
 ## Publishing Changes

@@ -14,8 +14,12 @@ const TeamSection = () => {
       </h2>
       <div className="flex flex-wrap justify-center pb-8">
         {/* add team members inside here. top to bottom in code equates to left to right, top to bottom in the website */}
-        {/* note the / before the file name instead of the expected public/FILE_NAME - this is file system magic done by Next.js */}
-        <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
+        {/* notice the / before the file name instead of the expected public/FILE_NAME */}
+        <TeamMember
+          name="Alex"
+          position="Alex"
+          src="/cntower.jpg"
+        />
         <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
         <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
         <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
