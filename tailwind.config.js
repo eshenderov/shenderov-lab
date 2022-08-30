@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        outline: ["Londrina Outline", ...defaultTheme.fontFamily.sans]
       },
     },
     colors: {

@@ -6,20 +6,16 @@ import TeamMember from "./TeamMember";
 const TeamSection = () => {
   return (
     <section id="team">
-      <h2 className="pb-8 text-center text-6xl font-black text-green-apple">
+      <h2 className="pb-12 text-center text-6xl font-outline font-black text-green-apple">
         Meet The&nbsp;
-        <span className="bg-gradient-to-r from-dragonfruit to-peach bg-clip-text text-transparent">
+        <span className="bg-gradient-to-r font-sans from-dragonfruit to-peach bg-clip-text text-transparent">
           Team
         </span>
       </h2>
       <div className="flex flex-wrap justify-center pb-8">
         {/* add team members inside here. top to bottom in code equates to left to right, top to bottom in the website */}
         {/* notice the / before the file name instead of the expected public/FILE_NAME */}
-        <TeamMember
-          name="Alex"
-          position="Alex"
-          src="/cntower.jpg"
-        />
+        <TeamMember name="Alex" position="Alex" src="/cntower.jpg" />
         <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
         <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
         <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
@@ -31,7 +27,7 @@ const TeamSection = () => {
         <Gallery />
         <article className="flex w-full flex-col justify-between gap-12 sm:gap-4 lg:w-2/5">
           <div>
-            <h3 className="pb-2 text-2xl font-medium text-peach">
+            <h3 className="pb-2 text-2xl font-medium text-green-apple">
               We have a lot of fun here...
             </h3>
             <span className="text-white">

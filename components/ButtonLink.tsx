@@ -5,8 +5,8 @@ interface Props {
   href: string;
 }
 
-const ButtonLink = ({ className, href }: Props) => {        
-  return (      
+const ButtonLink = ({ className, href }: Props) => {
+  return (
     <motion.a
       className={`group relative my-auto h-16 w-16 flex-none items-center justify-center ${className}`}
       href={href}
