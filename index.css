@@ -8,6 +8,10 @@
   }
 }
 
+.css-13dvntv-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  color: #000000 !important;
+}
+
 .MuiButtonBase-root {
   color: #e9e9ea !important;
 }
