@@ -1,10 +1,9 @@
 /* eslint-disable import/no-unresolved */
-import Image from "next/image";
 import { Autoplay, Pagination } from "swiper";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper } from "swiper/react";
+import Slide from "./Slide";
 import "swiper/css";
 import "swiper/css/pagination";
-import Slide from "./Slide";
 
 const Gallery = () => {
   return (
