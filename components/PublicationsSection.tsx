@@ -46,7 +46,7 @@ const fetchSearch = async (): Promise<string[] | undefined> => {
         db: "pubmed",
         term: "Shenderov+E[author]",
         retmode: "json",
-        api_key: process.env.NEXT_PUBLIC_PUBMED_API_KEY,
+        api_key: "288280414e54e83d2b7b07c117fd414a7008",
       },
     }
   );
@@ -64,7 +64,7 @@ const fetchSummary = async (idlist: string[]): Promise<SummaryResult[]> => {
         db: "pubmed",
         id: idlist.join(","),
         retmode: "json",
-        api_key: process.env.NEXT_PUBLIC_PUBMED_API_KEY,
+        api_key: "288280414e54e83d2b7b07c117fd414a7008",
       },
     }
   );

@@ -13,9 +13,13 @@ const NavBar = () => {
     <nav className="absolute z-50 flex h-20 w-full items-center justify-between bg-transparent">
       <div className="flex aspect-square h-full items-center justify-center">
         <div className="relative aspect-square h-3/4">
-          <Link href="/logo.png">
+          <Link href="/favicon.png">
             <a>
-              <Image src="/logo.png" alt="Shenderov Lab Logo" layout="fill" />
+              <Image
+                src="/favicon.png"
+                alt="Shenderov Lab Logo"
+                layout="fill"
+              />
             </a>
           </Link>
         </div>

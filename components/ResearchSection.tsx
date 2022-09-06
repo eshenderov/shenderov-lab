@@ -5,7 +5,7 @@ import ResearchText from "./ResearchText";
 
 // array of paths to images
 // left to right is the order in which the images are displayed when the page is scrolled downwards
-const researchImages = ["/alex.jpg", "/logo.png"];
+const researchImages = ["/alex.jpg", "/favicon.png"];
 
 const breakpoint = 1 / researchImages.length;
 

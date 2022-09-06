@@ -24,6 +24,7 @@ const Gallery = () => {
           {/* add slides here */}
           {/* notice the / before the file name instead of the expected public/FILE_NAME */}
           <Slide src="/alex.jpg" alt="Alex looking at trees or something" />
+          <Slide src="/alex.jpg" alt="Alex looking at trees or something" />
         </Swiper>
       </div>
     </div>
