@@ -5,9 +5,6 @@
 /.next/
 /out/
 
-# production
-/out
-
 .DS_Store
 
 # debug
