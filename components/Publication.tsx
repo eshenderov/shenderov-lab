@@ -23,7 +23,12 @@ const Publication = ({ title, uid, pubdate, journal, authors }: Props) => {
   };
 
   return (
-    // TODO: link on mobile?
+    // TODO: link on mobile
+    // TODO: fix mobile research scroll
+    // TODO: fix mobile white spcae on right
+    // TODO: set up domain
+    // TODO: deployment guide
+    // 
     <li className="flex gap-12">
       <div className="w-full">
         <p

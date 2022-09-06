@@ -22,7 +22,6 @@ const theme = createTheme({
   },
 });
 
-// TODO: env vars for api key when deploying
 const App = ({ Component, pageProps }: AppProps) => {
   return (
     <QueryClientProvider client={queryClient}>

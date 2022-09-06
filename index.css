@@ -8,12 +8,16 @@
   }
 }
 
-.MuiButtonBase-root {
-  color: #e9e9ea;
+.MuiPaginationItem-textPrimary {
+  color: #e9e9ea !important; 
+}
+
+.Mui-selected {
+  color: rgba(0, 0, 0, 0.87) !important;
 }
 
 .MuiPaginationItem-ellipsis {
-  color: #e9e9ea;
+  color: #e9e9ea !important;
 }
 
 .swiper-pagination-bullet-active {

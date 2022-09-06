@@ -4,7 +4,7 @@ interface Props {
 
 const ResearchText = ({ children }: Props) => {
   return (
-    <div className="flex h-screen items-center text-xl text-green-apple">
+    <div className="flex items-center h-[110vh] text-xl text-green-apple">
       {children}
     </div>
   );
