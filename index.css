@@ -7,16 +7,13 @@
     @apply relative py-16 px-12 sm:px-32 xl:px-48 2xl:px-60;
   }
 }
-.css-6a5qkf .Mui-selected {
-  color: #000000 !important;
-}
 
 .MuiButtonBase-root {
-  color: #e9e9ea !important;
+  color: #e9e9ea;
 }
 
 .MuiPaginationItem-ellipsis {
-  color: #e9e9ea !important;
+  color: #e9e9ea;
 }
 
 .swiper-pagination-bullet-active {
