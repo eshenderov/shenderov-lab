@@ -7,7 +7,6 @@ import "swiper/css/pagination";
 
 const Gallery = () => {
   return (
-    // dont ask why there are two divs here - this is the result of the nightmare that is safari combined with an hour of guessing obscure fixes
     <div className="my-auto w-full lg:w-3/5">
       <div className="aspect-video rounded-2xl bg-gradient-to-r from-dragonfruit to-peach p-1">
         <Swiper
