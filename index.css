@@ -7,8 +7,7 @@
     @apply relative py-16 px-12 sm:px-32 xl:px-48 2xl:px-60;
   }
 }
-
-.css-13dvntv-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+.css-6a5qkf .Mui-selected {
   color: #000000 !important;
 }
 
