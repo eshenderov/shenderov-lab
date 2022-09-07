@@ -19,9 +19,9 @@ const breakpoint = 1 / researchImages.length;
 const ResearchSection = () => {
   const [y, setY] = useState(0);
 
-  const ref = useRef(null);
+  const containerRef = useRef(null);
 
-  const { scrollYProgress } = useScroll({ target: ref });
+  const { scrollYProgress } = useScroll({ target: containerRef });
 
   useEffect(() => {
     return scrollYProgress.onChange((latest) => {
@@ -31,7 +31,10 @@ const ResearchSection = () => {
 
   return (
     <section id="research" className="relative">
-      <div ref={ref} className="grid grid-cols-2 gap-16">
+      <div
+        ref={containerRef}
+        className="sticky flex flex-col-reverse gap-16 lg:relative lg:grid lg:grid-cols-2"
+      >
         <div>
           <ResearchText>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. In
@@ -46,7 +49,7 @@ const ResearchSection = () => {
             voluptates ab harum!
           </ResearchText>
           <ResearchText>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In
+            3333 Lorem ipsum, dolor sit amet consectetur adipisicing elit. In
             praesentium ad alias aliquid vero est laborum architecto nisi qui
             harum modi nulla quod, amet provident? Asperiores doloribus
             voluptates ab harum!
