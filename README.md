@@ -11,9 +11,22 @@
 
 ## Editing Research Section Content
 
+### Adding Images
+
+- Add the image to the public directory
+- Images without a 16/9 aspect ratio will face the black bars of doom
+- Navigate to components/ResearchSection.tsx
+- Add the image path and description to the researchImages array
+- `researchImages = [{src: /NAME_OF_FILE, alt: DESCRIPTION_OF_IMAGE}, ...]`
+
+### Adding Text
+
+- Navigate to components/ResearchSection.tsx
+- Add a text block with `<ResearchText>TEXT</ResearchText>`
+
 ## Adding a Team Member
 
-- Add the team member's picture to the `public` directory
+- Add the team member's picture to the public directory
 - Images without a square aspect ratio will be clipped; manually clip the image if it doesn't show up centered
 - Navigate to components/TeamSection.tsx
 - Add the team member with `<TeamMember name={name} position={position} src={/NAME_OF_FILE} />`
@@ -32,3 +45,9 @@
 - Keep the number of NewsBlocks at a maximum of 6 by deleting the least recent one
 
 ## Publishing Changes
+
+- `cd` into the root directory (PATH_TO_CHOSEN_DIRECTORY/shenderov-lab)
+- `git add .`
+- `git commit -m "MESSAGE"`
+- `git pull`
+- `git push`
