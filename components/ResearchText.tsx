@@ -8,10 +8,10 @@ interface Props {
 const ResearchText = ({ children }: Props) => {
   const ref = useRef(null);
 
-  const isInView = useInView(ref, { margin: "-25% 0% -25% 0%" });
+  const isInView = useInView(ref, { margin: "-50% 0% -5% 0%" });
 
   return (
-    <div className="py-[25vw]">
+    <div className="py-[20vw]">
       <div ref={ref}>
         <motion.p
           animate={isInView ? "visible" : "hidden"}

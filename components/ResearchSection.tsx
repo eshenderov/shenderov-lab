@@ -61,7 +61,7 @@ const ResearchSection = () => {
               <ResearchImage
                 src={src}
                 alt={alt}
-                show={y >= breakpoint * i && y < breakpoint * (i + 1)}
+                show={y >= breakpoint * i && y <= breakpoint * (i + 1)}
                 key={src}
               />
             ))}
