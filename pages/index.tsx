@@ -4,8 +4,8 @@ import FrontSection from "../components/FrontSection";
 import NavBar from "../components/NavBar";
 import NewsSection from "../components/NewsSection";
 import PublicationsSection from "../components/PublicationsSection";
-import ResearchSection from "../components/ResearchSection";
-import TeamSection from "../components/TeamSection";
+// import ResearchSection from "../components/ResearchSection";
+// import TeamSection from "../components/TeamSection";
 
 const Home: NextPage = () => {
   return (
@@ -13,8 +13,8 @@ const Home: NextPage = () => {
       <NavBar />
       <main>
         <FrontSection />
-        <ResearchSection />
-        <TeamSection />
+        {/* <ResearchSection /> */}
+        {/* <TeamSection /> */}
         <NewsSection />
         <PublicationsSection />
       </main>
