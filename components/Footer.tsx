@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
   return (
-    <footer className="flex w-full flex-col items-center justify-between gap-8 py-16 px-12 text-center text-white sm:px-32 xl:px-48">
+    <footer className="flex w-full flex-col items-center justify-between gap-8 py-8 px-12 text-center text-white sm:py-16 sm:px-32 xl:px-48">
       <div className="flex items-center gap-8">
         <a href="https://www.linkedin.com/in/eugene-shenderov-m-d-d-phil-facp-46384a7b/">
           <FontAwesomeIcon className="h-8 w-8" icon={faLinkedin} />

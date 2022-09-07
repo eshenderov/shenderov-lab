@@ -29,7 +29,7 @@ const Publication = ({ title, uid, pubdate, journal, authors }: Props) => {
     // TODO: set up domain
     // TODO: deployment guide
     // 
-    <li className="flex gap-12">
+    <li className="flex gap-12 text-sm sm:text-base">
       <div className="w-full">
         <p
           className="font-bold"
