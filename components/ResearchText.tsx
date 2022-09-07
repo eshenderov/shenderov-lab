@@ -1,5 +1,5 @@
-import { useEffect, useRef } from "react";
-import { motion, AnimatePresence, useInView } from "framer-motion";
+import { useRef } from "react";
+import { motion, useInView } from "framer-motion";
 
 interface Props {
   children: string;
@@ -8,27 +8,25 @@ interface Props {
 const ResearchText = ({ children }: Props) => {
   const ref = useRef(null);
 
-  const isInView = useInView(ref, {margin: "50% 50% 50% 0%"});
-
-  useEffect(() => {
-    console.log(`${children}: ${isInView}`);
-  }, [isInView]);
+  const isInView = useInView(ref, { margin: "-25% 0% -25% 0%" });
 
   return (
-    <div className="py-[30vw]">
+    <div className="py-[25vw]">
       <div ref={ref}>
-        <AnimatePresence>
-          {isInView && (
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              className="text-xl text-green-apple"
-            >
-              {children}
-            </motion.p>
-          )}
-        </AnimatePresence>
+        <motion.p
+          animate={isInView ? "visible" : "hidden"}
+          className="text-xl text-green-apple"
+          variants={{
+            visible: {
+              opacity: 1,
+            },
+            hidden: {
+              opacity: 0,
+            },
+          }}
+        >
+          {children}
+        </motion.p>
       </div>
     </div>
   );
