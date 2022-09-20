@@ -38,7 +38,7 @@ const TeamSection = () => {
           </div>
           <motion.div className="flex items-center justify-end gap-4 text-2xl font-medium text-peach">
             <p>Join us</p>
-            <ButtonLink className="flex" href="mailto:TODO" />
+            <ButtonLink className="flex" href="mailto:Eugene.Shenderov@jhmi.edu" />
           </motion.div>
         </article>
       </div>

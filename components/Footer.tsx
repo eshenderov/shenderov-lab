@@ -23,7 +23,7 @@ const Footer = () => {
         </a>
       </div>
       <div>
-        <p className="pb-4">exmaple@exmaple.com</p>
+        <p className="pb-4">Eugene.Shenderov@jhmi.edu</p>
         <p>© Shenderov Lab 2022</p>
       </div>
     </footer>
