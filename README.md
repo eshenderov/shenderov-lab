@@ -1,6 +1,7 @@
 ## Getting Started
 
-- Make sure [Node.js](https://nodejs.org/en/download/) and [Git](https://git-scm.com/downloads) are installed by running `node -v` and `git --version` in the terminal. Install if command not found.
+- Make sure [Node.js](https://nodejs.org/en/download/) and [Git](https://git-scm.com/downloads) are installed by running `node -v` and `git --version` in the terminal. Install if command not found. 
+- Install [Visual Studio Code](https://code.visualstudio.com/download)
 - `cd` into your preferred directory
 - Run `git clone https://github.com/alexbluo/shenderov-lab.git`
 - `cd shenderov-lab`
