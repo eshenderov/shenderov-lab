@@ -6,13 +6,13 @@ import TeamMember from "./TeamMember";
 const TeamSection = () => {
   return (
     <section id="team">
-      <h2 className="pb-12 text-center font-outline text-5xl font-black text-green-apple sm:text-6xl">
+      <h2 className="pb-12 text-center font-outline text-5xl font-black text-green-apple sm:text-6xl lg:pb-24">
         Meet The&nbsp;
         <span className="bg-gradient-to-r from-dragonfruit to-peach bg-clip-text font-sans text-transparent">
           Team
         </span>
       </h2>
-      <div className="flex flex-wrap justify-center pb-8">
+      <div className="flex flex-wrap justify-center pb-12 lg:pb-24">
         {/* add team members inside here. top to bottom in code equates to left to right, top to bottom in the website */}
         {/* notice the / before the file name instead of the expected public/FILE_NAME */}
         <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
@@ -38,7 +38,10 @@ const TeamSection = () => {
           </div>
           <motion.div className="flex items-center justify-end gap-4 text-2xl font-medium text-peach">
             <p>Join us</p>
-            <ButtonLink className="flex" href="mailto:Eugene.Shenderov@jhmi.edu" />
+            <ButtonLink
+              className="flex"
+              href="mailto:Eugene.Shenderov@jhmi.edu"
+            />
           </motion.div>
         </article>
       </div>
