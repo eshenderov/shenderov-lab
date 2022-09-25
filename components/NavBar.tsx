@@ -10,7 +10,7 @@ const NavBar = () => {
   const [open, toggleOpen] = useCycle(false, true);
 
   return (
-    <nav className="absolute z-50 flex h-36 w-full items-center justify-between bg-transparent">
+    <nav className="absolute z-50 flex h-32 w-full items-center justify-between bg-transparent">
       <div className="flex aspect-square h-full items-center justify-center">
         <div className="relative aspect-square h-4/5">
           <Link href="/favicon.png">
@@ -25,7 +25,7 @@ const NavBar = () => {
         </div>
       </div>
 
-      <ul className="hidden gap-12 pr-12 sm:flex">
+      <ul className="hidden gap-16 pr-16 lg:flex">
         <NavItem to="research">Research</NavItem>
         <NavItem to="team">Team</NavItem>
         <NavItem to="news">News</NavItem>
