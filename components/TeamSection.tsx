@@ -15,13 +15,23 @@ const TeamSection = () => {
       <div className="flex flex-wrap justify-center pb-12 lg:pb-24">
         {/* add team members inside here. top to bottom in code equates to left to right, top to bottom in the website */}
         {/* notice the / before the file name instead of the expected public/FILE_NAME */}
-        <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
-        <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
-        <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
-        <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
-        <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
-        <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
-        <TeamMember name="Alex" position="Alex" src="/alex.jpg" />
+        {/* Kelly: Kelly is a research technologist working closely with the GeoMx Digital Spatial Profiler for spatial transcriptomics and proteomics. She is currently pursuing a Master’s degree in Biotechnology with a concentration in Molecular Targets and Drug Discovery Technologies from Johns Hopkins University. In her spare time, she enjoys caring for her house plants. */}
+        {/* Adam is currently a third-year undergraduate at JHU majoring in
+        neuroscience. He is working on various projects ranging from the deep
+        learning-based diagnosis of leukemia to the spatial proteogenomics of
+        brain tumors. Fun fact: he has been in the lab for over four years
+        (since high school)! */}
+        {/* Justin is an undergraduate Hopkins student from San Diego majoring in
+        molecular and cellular biology. He hopes to gain research experience
+        while pursuing his interests in the medical field. When not in the lab,
+        Justin enjoys cooking and listening to music. */}
+        <TeamMember name="Alex" description="Alex" src="/alex.jpg" />
+        <TeamMember name="Alex" description="Alex" src="/alex.jpg" />
+        <TeamMember name="Alex" description="Alex" src="/alex.jpg" />
+        <TeamMember name="Alex" description="Alex" src="/alex.jpg" />
+        <TeamMember name="Alex" description="Alex" src="/alex.jpg" />
+        <TeamMember name="Alex" description="Alex" src="/alex.jpg" />
+        <TeamMember name="Alex" description="Alex" src="/alex.jpg" />
       </div>
       <div className="flex flex-col gap-12 lg:flex-row lg:gap-16">
         <Gallery />
