@@ -36,9 +36,9 @@ const TeamSection = () => {
           from Johns Hopkins University. In her spare time, she enjoys caring
           for her house plants.
         </TeamMember>
-        <TeamMember name="Alex" src="/alex.jpg"></TeamMember>
-        <TeamMember name="Alex" src="/alex.jpg"></TeamMember>
-        <TeamMember name="Alex" src="/alex.jpg"></TeamMember>
+        <TeamMember name="Ling" src="/alex.jpg"></TeamMember>
+        <TeamMember name="Nikita" src="/alex.jpg"></TeamMember>
+        <TeamMember name="Eugene" src="/alex.jpg"></TeamMember>
         <TeamMember name="Alex" src="/alex.jpg"></TeamMember>
       </div>
       <div className="flex flex-col gap-12 lg:flex-row lg:gap-16">
