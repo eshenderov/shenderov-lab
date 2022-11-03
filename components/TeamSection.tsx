@@ -15,20 +15,7 @@ const TeamSection = () => {
       <div className="flex flex-wrap justify-center pb-12 lg:pb-24">
         {/* add team members inside here. top to bottom in code equates to left to right, top to bottom in the website */}
         {/* notice the / before the file name instead of the expected public/FILE_NAME */}
-        <TeamMember name="Adam Luo" src="/adam.jpg">
-          Adam is currently a third-year undergraduate at JHU majoring in
-          neuroscience. He is working on various projects ranging from the deep
-          learning-based diagnosis of leukemia to the spatial proteogenomics of
-          brain tumors. Fun fact: he has been in the lab for over four years
-          (since high school)!
-        </TeamMember>
-        <TeamMember name="Justin Hyun" src="/alex.jpg">
-          Justin is an undergraduate Hopkins student from San Diego majoring in
-          molecular and cellular biology. He hopes to gain research experience
-          while pursuing his interests in the medical field. When not in the
-          lab, Justin enjoys cooking and listening to music.
-        </TeamMember>
-        <TeamMember name="Kelly Casella" src="/alex.jpg">
+        <TeamMember name="Kelly Casella" src="/kelly.jpg">
           Kelly is a research technologist working closely with the GeoMx
           Digital Spatial Profiler for spatial transcriptomics and proteomics.
           She is currently pursuing a Master’s degree in Biotechnology with a
@@ -36,10 +23,39 @@ const TeamSection = () => {
           from Johns Hopkins University. In her spare time, she enjoys caring
           for her house plants.
         </TeamMember>
-        <TeamMember name="Ling" src="/alex.jpg"></TeamMember>
-        <TeamMember name="Nikita" src="/alex.jpg"></TeamMember>
-        <TeamMember name="Eugene" src="/alex.jpg"></TeamMember>
-        <TeamMember name="Alex" src="/alex.jpg"></TeamMember>
+        <TeamMember name="Ling Huang" src="/ling.jpg">
+          Ling is a current resident at the Osler Medical Residency, aspiring to
+          join the field of hematology/oncology. She enjoys cooking, learning to
+          knit and going on walks with her family on the beautiful waterfront in
+          Baltimore.
+        </TeamMember>
+        <TeamMember name="Justin Hyun" src="/justin.jpg">
+          Justin is an undergraduate Hopkins student from San Diego majoring in
+          molecular and cellular biology. He hopes to gain research experience
+          while pursuing his interests in the medical field. When not in the
+          lab, Justin enjoys cooking and listening to music.
+        </TeamMember>
+        <TeamMember name="Adam Luo" src="/adam.jpg">
+          Adam is currently a third-year undergraduate at JHU majoring in
+          neuroscience. He is working on various projects ranging from the deep
+          learning-based diagnosis of leukemia to the spatial proteogenomics of
+          brain tumors. Fun fact: he has been in the lab for over four years
+          (since high school)!
+        </TeamMember>
+        <TeamMember name="Nikita Mundhara" src="/nikita.jpg">
+          Dr. Mundhara is a postdoctoral fellow elucidating the B7-H3 signaling
+          pathway, involving spatial transcriptomics and CRISPR knockouts in
+          prostate cancer cell lines and mouse models. Her Ph.D. encompasses the
+          intricate crosstalk between actin and microtubules in cell physiology
+          and mechanobiology. Other interests include graphology, poetry
+          writing, and podcasting.
+        </TeamMember>
+        <TeamMember name="Eugene" src="/alex.jpg">
+          placeholder
+        </TeamMember>
+        <TeamMember name="Alex" src="/alex.jpg">
+          placeholder
+        </TeamMember>
       </div>
       <div className="flex flex-col gap-12 lg:flex-row lg:gap-16">
         <Gallery />
