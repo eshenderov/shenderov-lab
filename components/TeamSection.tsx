@@ -15,6 +15,8 @@ const TeamSection = () => {
       <div className="flex flex-wrap justify-center pb-12 lg:pb-24">
         {/* add team members inside here. top to bottom in code equates to left to right, top to bottom in the website */}
         {/* notice the / before the file name instead of the expected public/FILE_NAME */}
+        {/* TODO: add gradient border and rotate on hover, maybe even whole bg */}
+        
         <TeamMember name="Kelly Casella" src="/kelly.jpg">
           Kelly is a research technologist working closely with the GeoMx
           Digital Spatial Profiler for spatial transcriptomics and proteomics.

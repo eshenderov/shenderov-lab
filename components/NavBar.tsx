@@ -10,7 +10,11 @@ const NavBar = () => {
   const [open, toggleOpen] = useCycle(false, true);
 
   return (
-    <nav className="absolute z-50 flex h-32 w-full items-center justify-between bg-transparent">
+    <nav
+      className={`absolute z-50 flex h-32 w-full items-center justify-between duration-150 ease-linear ${
+        open && "bg-raisin lg:bg-transparent"
+      }`}
+    >
       <div className="flex aspect-square h-full items-center justify-center">
         <div className="relative aspect-square h-3/4">
           <Link href="/favicon.png">

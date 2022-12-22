@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 const Gallery = () => {
   return (
     <div className="my-auto w-full lg:w-3/5">
-      <div className="aspect-video rounded-2xl bg-gradient-to-r from-dragonfruit to-peach p-1">
+      <div className="aspect-video cursor-grab rounded-2xl bg-gradient-to-r from-dragonfruit to-peach p-1">
         <Swiper
           className="h-full rounded-xl"
           modules={[Autoplay, Pagination]}

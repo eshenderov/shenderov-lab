@@ -36,23 +36,18 @@ const ResearchSection = () => {
         className="sticky flex flex-col-reverse gap-16 lg:relative lg:grid lg:grid-cols-2"
       >
         <div>
+          {/* TODO: hack cursor and make title follow https://medium.com/@jaredloson/custom-javascript-cursor-in-react-d7ffefb2db38 */}
           <ResearchText>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In
-            praesentium ad alias aliquid vero est laborum architecto nisi qui
-            harum modi nulla quod, amet provident? Asperiores doloribus
-            voluptates ab harum!
+            The Shenderov Lab focuses on the elucidation of the mechanisms of
+            immune resistance and response to immunotherapy in Prostate Cancer.
+            This has led to clinical and basic research investigating the
+            presumptive checkpoint inhibitor B7-H3.
           </ResearchText>
           <ResearchText>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In
-            praesentium ad alias aliquid vero est laborum architecto nisi qui
-            harum modi nulla quod, amet provident? Asperiores doloribus
-            voluptates ab harum!
-          </ResearchText>
-          <ResearchText>
-            3333 Lorem ipsum, dolor sit amet consectetur adipisicing elit. In
-            praesentium ad alias aliquid vero est laborum architecto nisi qui
-            harum modi nulla quod, amet provident? Asperiores doloribus
-            voluptates ab harum!
+            In pursuit of understanding biomarkers and regulatory molecules of
+            immune response, we utilize artificial intelligence, immunogenomics,
+            spatial proteomics, transcriptomics, and clinical trial correlative
+            samples.
           </ResearchText>
         </div>
         <div className="sticky top-0 h-screen">

@@ -10,10 +10,11 @@ const MobileMenu = ({ open }: Props) => {
     <AnimatePresence>
       {open && (
         <motion.div
-          className="border-b-blue-dark absolute top-20 left-0 z-50 w-full border-b border-b-peach bg-raisin sm:hidden"
+          className="absolute top-32 left-0 z-50 w-full border-b border-b-peach bg-raisin lg:hidden"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
+          transition={{ duration: .15, ease: "linear" }}
         >
           <ul className="flex flex-col gap-4 p-4 text-center">
             <NavItem to="research">Research</NavItem>
