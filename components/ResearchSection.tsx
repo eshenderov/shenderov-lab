@@ -30,7 +30,7 @@ const ResearchSection = () => {
   }, [scrollYProgress]);
 
   return (
-    <section id="research" className="relative -my-[12rem]">
+    <section id="research" className="relative lg:-my-[12rem]">
       <div
         ref={containerRef}
         className="sticky flex flex-col-reverse gap-16 lg:relative lg:grid lg:grid-cols-2"

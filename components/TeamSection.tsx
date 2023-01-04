@@ -72,7 +72,7 @@ const TeamSection = () => {
               aliquid, dolor voluptatem.
             </span>
           </div>
-          <motion.div className="flex items-center justify-end gap-4 text-2xl font-medium text-peach">
+          <motion.div className="flex items-center justify-end gap-4 text-2xl font-medium text-logo">
             <p>Join us</p>
             <ButtonLink
               className="flex"

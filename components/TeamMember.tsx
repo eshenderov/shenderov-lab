@@ -20,13 +20,13 @@ const TeamMember = ({ name, src, children }: Props) => {
         <div className="relative mb-4 aspect-square w-full overflow-hidden rounded-full">
           <Image src={src} alt={`${name}`} layout="fill" />
         </div>
-        <p className="text-center text-2xl font-medium text-peach">{name}</p>
+        <p className="text-center text-2xl font-medium text-white">{name}</p>
       </button>
       <AnimatePresence>
         {visible && (
           <motion.div
             // TODO: fix bg at top exit
-            className="fixed top-0 left-0 z-50 flex h-[100vh] w-screen cursor-pointer items-center justify-center bg-raisin/50"
+            className="fixed top-0 left-0 z-50 flex h-[100vh] w-screen cursor-pointer items-center justify-center bg-raisin/95"
             initial={{
               opacity: 0,
             }}
@@ -39,7 +39,7 @@ const TeamMember = ({ name, src, children }: Props) => {
             onTap={() => setVisible(false)}
           >
             <motion.div
-              className="w-1/2 max-w-[44rem] origin-bottom rounded-2xl bg-peach p-8"
+              className="w-1/2 max-w-[44rem] origin-bottom rounded-2xl bg-raisin-bright p-8 text-lg text-white shadow-lg shadow-logo"
               initial={{
                 opacity: 0,
                 y: 50,
