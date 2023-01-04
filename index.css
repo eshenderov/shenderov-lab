@@ -4,12 +4,12 @@
 
 @layer base {
   section {
-    @apply relative py-8 sm:py-16 px-8 sm:px-48 max-w-screen-2xl mx-auto;
+    @apply container relative mx-auto py-8 px-8 sm:py-16 sm:px-48;
   }
 }
 
 .MuiPaginationItem-textPrimary {
-  color: #e9e9ea !important; 
+  color: #e9e9ea !important;
 }
 
 .Mui-selected {

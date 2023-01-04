@@ -25,7 +25,6 @@ const TeamMember = ({ name, src, children }: Props) => {
       <AnimatePresence>
         {visible && (
           <motion.div
-            // TODO: fix bg at top exit
             className="fixed top-0 left-0 z-50 flex h-[100vh] w-screen cursor-pointer items-center justify-center bg-raisin/95"
             initial={{
               opacity: 0,

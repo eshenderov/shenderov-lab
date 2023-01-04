@@ -36,7 +36,6 @@ const ResearchSection = () => {
         className="sticky flex flex-col-reverse gap-16 lg:relative lg:grid lg:grid-cols-2"
       >
         <div>
-          {/* TODO: hack cursor and make title follow https://medium.com/@jaredloson/custom-javascript-cursor-in-react-d7ffefb2db38 */}
           <ResearchText>
             The Shenderov Lab focuses on the elucidation of the mechanisms of
             immune resistance and response to immunotherapy in Prostate Cancer.

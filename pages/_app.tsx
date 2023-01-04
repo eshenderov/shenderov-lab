@@ -22,7 +22,6 @@ const theme = createTheme({
   },
 });
 
-// TODO: push from other computer
 const App = ({ Component, pageProps }: AppProps) => {
   return (
     <QueryClientProvider client={queryClient}>
