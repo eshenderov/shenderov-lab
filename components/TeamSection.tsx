@@ -51,10 +51,10 @@ const TeamSection = () => {
           and mechanobiology. Other interests include graphology, poetry
           writing, and podcasting.
         </TeamMember>
-        <TeamMember name="Eugene" src="/alex.jpg">
+        <TeamMember name="Shivang Sharma" src="/shivang.jpg">
           placeholder
         </TeamMember>
-        <TeamMember name="Alex" src="/alex.jpg">
+        <TeamMember name="Eugene Shenderov" src="/alex.jpg">
           placeholder
         </TeamMember>
       </div>
