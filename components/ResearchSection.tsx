@@ -10,8 +10,8 @@ interface Image {
 
 // left to right is the order in which the images are displayed when the page is scrolled downwards
 const researchImages: Image[] = [
-  { src: "/alex.jpg", alt: "Alex looking at something" },
   { src: "/favicon.png", alt: "Shenderov Lab Logo" },
+  { src: "/spatial.jpg", alt: "Spatial image" },
 ];
 
 const breakpoint = 1 / researchImages.length;

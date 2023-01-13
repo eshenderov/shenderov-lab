@@ -24,7 +24,10 @@ const Gallery = () => {
           {/* add slides here */}
           {/* notice the / before the file name instead of the expected public/FILE_NAME */}
           <Slide src="/lab-2022-summer.jpg" alt="2022 Lab Summer" />
-          <Slide src="/lab-msc.jpg" alt="2022 Lab Outing to the Maryland Science Center" />
+          <Slide
+            src="/lab-msc.jpg"
+            alt="2022 Lab Outing to the Maryland Science Center"
+          />
           <Slide src="/lab-2021-summer.jpg" alt="2021 Lab Summer" />
         </Swiper>
       </div>

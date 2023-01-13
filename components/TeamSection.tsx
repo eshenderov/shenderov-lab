@@ -15,7 +15,7 @@ const TeamSection = () => {
       <div className="flex flex-wrap justify-center pb-12 lg:pb-24">
         {/* add team members inside here. top to bottom in code equates to left to right, top to bottom in the website */}
         {/* notice the / before the file name instead of the expected public/FILE_NAME */}
-        
+
         <TeamMember name="Kelly Casella" src="/kelly.jpg">
           Kelly is a research technologist working closely with the GeoMx
           Digital Spatial Profiler for spatial transcriptomics and proteomics.
@@ -54,8 +54,16 @@ const TeamSection = () => {
         <TeamMember name="Shivang Sharma" src="/shivang.jpg">
           placeholder
         </TeamMember>
-        <TeamMember name="Eugene Shenderov" src="/alex.jpg">
-          placeholder
+        <TeamMember name="Eugene Shenderov" src="/eugene.png">
+          Dr. Shenderov is a physician-scientist educated at University of
+          Oxford, Johns Hopkins School of Medicine, and the National Institutes
+          of Health (NIH), who is striving to develop the next generation of
+          prostate cancer-directed immunotherapies and helping shape policy to
+          allow the best possible healthcare for all. He is honored to have the
+          opportunity to balance patient care, run clinical trials, and lead a
+          wet/computational laboratory. In his spare time, he enjoys spending
+          time with his wife and three children, along with outdoor hobbies
+          including gardening, running, cycling, and tennis.
         </TeamMember>
       </div>
       <div className="flex flex-col gap-12 lg:flex-row lg:gap-16">
