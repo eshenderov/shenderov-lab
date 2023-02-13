@@ -11,6 +11,8 @@ interface Image {
 // left to right is the order in which the images are displayed when the page is scrolled downwards
 const researchImages: Image[] = [
   { src: "/favicon.png", alt: "Shenderov Lab Logo" },
+  { src: "/spatialTME.png", alt: "Spatial TME" },
+
   { src: "/spatial.jpg", alt: "Spatial image" },
 ];
 
@@ -30,12 +32,18 @@ const ResearchSection = () => {
   }, [scrollYProgress]);
 
   return (
-    <section id="research" className="relative lg:-my-[12rem]">
+    <section id="research" className="relative pt-32 lg:py-0">
       <div
         ref={containerRef}
         className="sticky flex flex-col-reverse gap-16 lg:relative lg:grid lg:grid-cols-2"
       >
         <div>
+          <ResearchText>
+            <div className="bg-gradient-to-r from-dragonfruit to-peach bg-clip-text font-sans text-transparent">
+              <h3 className="font-semibold">Johns Hopkins University</h3>
+              <h1 className="text-6xl font-black">Shenderov Lab</h1>
+            </div>
+          </ResearchText>
           <ResearchText>
             The Shenderov Lab focuses on the elucidation of the mechanisms of
             immune resistance and response to immunotherapy in Prostate Cancer.

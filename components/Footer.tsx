@@ -40,7 +40,7 @@ const Footer = () => {
       </div>
       <div>
         <p className="pb-4">Eugene.Shenderov@jhmi.edu</p>
-        <p>© Shenderov Lab 2022</p>
+        <p>© Shenderov Lab 2023</p>
       </div>
     </footer>
   );

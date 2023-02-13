@@ -4,7 +4,7 @@
 
 @layer base {
   section {
-    @apply container relative mx-auto py-8 px-8 sm:py-16 sm:px-48;
+    @apply container relative mx-auto py-8 px-8 sm:py-16 sm:px-16 md:px-24 lg:px-36 2xl:px-48;
   }
 }
 
