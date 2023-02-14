@@ -6,8 +6,6 @@ import PublicationsSection from "../components/PublicationsSection";
 import ResearchSection from "../components/ResearchSection";
 import TeamSection from "../components/TeamSection";
 
-// TODO: shrink image and translate to right middle on initial scroll
-// TODO: add analytics
 const Home: NextPage = () => {
   return (
     <div className="bg-raisin">
