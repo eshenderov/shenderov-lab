@@ -39,12 +39,6 @@ const ResearchSection = () => {
       >
         <div>
           <ResearchText>
-            <div className="bg-gradient-to-r from-dragonfruit to-peach bg-clip-text font-sans text-transparent">
-              <h3 className="font-semibold">Johns Hopkins University</h3>
-              <h1 className="text-6xl font-black">Shenderov Lab</h1>
-            </div>
-          </ResearchText>
-          <ResearchText>
             The Shenderov Lab focuses on the elucidation of the mechanisms of
             immune resistance and response to immunotherapy in Prostate Cancer.
             This has led to clinical and basic research investigating the
