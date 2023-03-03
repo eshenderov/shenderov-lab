@@ -3,7 +3,7 @@ import TeamMember from "./TeamMember";
 const AlumniSection = () => {
   return (
     <section id="team">
-      <h2 className="bg-gradient-to-r from-dragonfruit to-peach bg-clip-text pb-12 text-center font-sans text-6xl font-black text-transparent text-green-apple lg:pb-24">
+      <h2 className="bg-gradient-to-r from-dragonfruit to-peach bg-clip-text pb-12 text-center font-sans text-6xl font-black text-transparent lg:pb-24">
         Lab Alumni Family
       </h2>
       <div className="flex flex-wrap justify-center">
