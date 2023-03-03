@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { ReactNode, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 
 interface Props {
   name: string;
   src: string;
-  children: string;
+  children: string | ReactNode;
 }
 
 const TeamMember = ({ name, src, children }: Props) => {
@@ -14,7 +14,7 @@ const TeamMember = ({ name, src, children }: Props) => {
   return (
     <>
       <button
-        className="relative flex cursor-pointer flex-col items-center gap-4 p-4 flex-[0_0_60%] md:flex-[0_0_50%] lg:flex-[0_0_33%] lg:p-8 lg:px-8 xl:flex-[0_0_25%] 2xl:flex-[0_0_20%]"
+        className="relative flex flex-[0_0_60%] cursor-pointer flex-col items-center gap-4 p-4 md:flex-[0_0_50%] lg:flex-[0_0_33%] lg:p-8 lg:px-8 xl:flex-[0_0_25%] 2xl:flex-[0_0_20%]"
         onClick={() => setVisible(true)}
       >
         <div className="relative aspect-square w-full overflow-hidden rounded-full">

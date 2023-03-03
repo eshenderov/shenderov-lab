@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from "react";
-import { motion, useScroll } from "framer-motion";
+import { useScroll } from "framer-motion";
 import { NextPage } from "next";
 import Image from "next/image";
+import AlumniSection from "../components/AlumniSection";
 import Footer from "../components/Footer";
 import FrontSection from "../components/FrontSection";
 import NavBar from "../components/NavBar";
@@ -45,6 +46,7 @@ const Home: NextPage = () => {
         <FrontSection />
         <ResearchSection />
         <TeamSection />
+        <AlumniSection />
         <NewsSection />
         <PublicationsSection />
       </main>
