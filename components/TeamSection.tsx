@@ -74,13 +74,12 @@ const TeamSection = () => {
               We have a lot of fun here...
             </h3>
             <span className="text-white">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-              fuga obcaecati error laborum aperiam quod delectus aliquam
-              aliquid, dolor voluptatem.
+              We keep our team at the center of what we do, striving to foster a
+              welcoming educational and professional environment.
             </span>
           </div>
           <motion.div className="flex items-center justify-end gap-4 text-2xl font-medium text-logo">
-            <p>Join us</p>
+            <p>Join us!</p>
             <ButtonLink
               className="flex"
               href="mailto:Eugene.Shenderov@jhmi.edu"

@@ -12,8 +12,6 @@ interface Image {
 const researchImages: Image[] = [
   { src: "/favicon.png", alt: "Shenderov Lab Logo" },
   { src: "/spatialTME.png", alt: "Spatial TME" },
-
-  { src: "/spatial.jpg", alt: "Spatial image" },
 ];
 
 const breakpoint = 1 / researchImages.length;

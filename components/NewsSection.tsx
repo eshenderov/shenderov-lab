@@ -1,14 +1,14 @@
-import NewsBlock from "./NewsBlock";
+// import NewsBlock from "./NewsBlock";
 
 const NewsSection = () => {
   return (
     <section id="news">
-      <h2 className="inline-block bg-gradient-to-r from-dragonfruit to-peach bg-clip-text pb-12 text-4xl font-black text-transparent sm:text-6xl">
+      <h2 className="inline-block bg-gradient-to-r from-dragonfruit to-peach bg-clip-text pb-12 text-5xl font-black text-transparent sm:text-6xl">
         News
       </h2>
       <div className="grid gap-12 lg:grid-cols-2 2xl:grid-cols-3">
         {/* add news blocks inside here. top to bottom in code equates to left to right, top to bottom in the website. */}
-        <NewsBlock headline="This is a headline woohoo" date="August 18, 2022">
+        {/* <NewsBlock headline="This is a headline woohoo" date="August 18, 2022">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam
           oluptatum voluptatem aperiam? Quisquam, maiores animi alias aspernatur
           voluptates, cumque rerum qui velit perspiciatis saepe possimus? Velit,
@@ -31,7 +31,7 @@ const NewsSection = () => {
           oluptatum voluptatem aperiam? Quisquam, maiores animi alias aspernatur
           voluptates, cumque rerum qui velit perspiciatis saepe possimus? Velit,
           necessitatibus.
-        </NewsBlock>
+        </NewsBlock> */}
       </div>
     </section>
   );
