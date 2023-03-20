@@ -36,8 +36,7 @@
 - Add the image to the `public` directory
 - Images without a 16/9 aspect ratio will face the black bars of doom
 - Navigate to `components/ResearchSection.tsx`
-- Add the image path and description to the researchImages array
-- `researchImages = [{src: "/NAME_OF_FILE", alt: "DESCRIPTION_OF_IMAGE", ...]`
+- `researchImages = [{src: "/NAME_OF_IMAGE_FILE.extension", alt: "DESCRIPTION_OF_IMAGE", ...]`
 
 ### Adding Text
 
@@ -47,15 +46,15 @@
 ## Adding a Team Member
 
 - Add the team member's picture to the `public` directory
-- Images without a square aspect ratio will be clipped; manually clip the image if it doesn't show up centered
+- Images without a square aspect ratio will be clipped; manually crop the image if it doesn't show up centered
 - Navigate to components/TeamSection.tsx
-- Add the team member with `<TeamMember name="name" position="position" src="/NAME_OF_FILE" />`
+- Add the team member with `<TeamMember name="name" src="/NAME_OF_IMAGE_FILE.extension">{MODAL_TEXT}</TeamMember>`
 
 ## Adding Slides to the Lab Gallery
 
 - Add the image to the `public` directory
 - Navigate to components/Gallery.tsx
-- Add the slide with `<Slide src="/NAME_OF_FILE" alt="DESCRIPTION_OF_IMAGE" />`
+- Add the slide with `<Slide src="/NAME_OF_IMAGE_FILE.extension" alt="DESCRIPTION_OF_IMAGE" />`
 
 ## Creating a News Block
 
