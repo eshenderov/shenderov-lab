@@ -14,7 +14,7 @@
 - Open the project directory in your code editor and make sure the command line is currently in the project root (PATH/.../shenderov-lab)
 - Some notable VS Code commands are:
   - `` ctr/cmd + ` `` to open the command line
-  - `code -r PATH_TO_PROJECT_DIRECTORY` (can copy from the top of File Explorer)` to open the project in VS Code
+  - `code -r PATH_TO_PROJECT_DIRECTORY` (can copy from the top of File Explorer) to open the project in VS Code
 - Run `yarn` to install the newest project dependencies
 - Run `yarn dev` to start the local development server
 - Open `localhost:3000` in your browser to view the development page. Changes in the code will be automatically reflected in localhost but won't be publicly visible until pushed to GitHub
