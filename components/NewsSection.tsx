@@ -1,4 +1,4 @@
-// import NewsBlock from "./NewsBlock";
+import NewsBlock from "./NewsBlock";
 
 const NewsSection = () => {
   return (
@@ -32,6 +32,9 @@ const NewsSection = () => {
           voluptates, cumque rerum qui velit perspiciatis saepe possimus? Velit,
           necessitatibus.
         </NewsBlock> */}
+        <NewsBlock headline="Dr. Ling Huang Matches to Oncology Fellowship" date="November 30, 2022">
+          Dr. Huang is heading to Wash. U. in St. Louis! Congratulations!
+        </NewsBlock>
       </div>
     </section>
   );
