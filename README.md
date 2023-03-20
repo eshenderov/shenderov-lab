@@ -1,7 +1,3 @@
-## Overview
-
-- The components folder
-
 ## Getting Started
 
 ### Installation
