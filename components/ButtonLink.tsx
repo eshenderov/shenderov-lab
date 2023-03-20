@@ -15,13 +15,13 @@ const ButtonLink = ({ className, href }: Props) => {
       <div className="absolute rounded-full">
         <svg width="64" height="64">
           <circle
-            className="fill-transparent stroke-logo/50 stroke-2"
+            className="fill-transparent stroke-green-apple/50 stroke-2"
             r="30"
             cx="32"
             cy="32"
           ></circle>
           <motion.circle
-            className="circle origin-center rotate-180 fill-transparent stroke-logo stroke-2"
+            className="circle origin-center rotate-180 fill-transparent stroke-green-apple stroke-2"
             r="30"
             cx="32"
             cy="32"
@@ -39,7 +39,7 @@ const ButtonLink = ({ className, href }: Props) => {
         </svg>
       </div>
       <motion.svg
-        className="stroke-logo"
+        className="stroke-green-apple"
         width="24"
         height="24"
         viewBox="0 0 16 16"

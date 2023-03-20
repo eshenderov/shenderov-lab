@@ -10,7 +10,7 @@ const Slide = ({ src, alt }: Props) => {
   return (
     <SwiperSlide>
       <div className="h-full bg-[#000000]">
-        <Image src={src} alt={alt} layout="fill" objectFit="contain" />
+        <Image src={src} alt={alt} layout="fill" objectFit="cover" />
       </div>
     </SwiperSlide>
   );

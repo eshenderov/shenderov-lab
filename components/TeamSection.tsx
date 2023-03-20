@@ -78,7 +78,7 @@ const TeamSection = () => {
               welcoming educational and professional environment.
             </span>
           </div>
-          <motion.div className="flex items-center justify-end gap-4 text-2xl font-medium text-logo">
+          <motion.div className="flex items-center justify-end gap-4 text-2xl font-medium text-green-apple">
             <p>Join us!</p>
             <ButtonLink
               className="flex"
