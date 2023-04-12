@@ -33,6 +33,10 @@ const Home: NextPage = () => {
       <Head>
         <title>Shenderov Lab</title>
         <link rel="icon" href="/favicon.png" />
+        <meta
+          name="description"
+          content="The Shenderov Lab, headed by Dr. Eugene Shenderov, focuses on the elucidation of the mechanisms of immune resistance and response to immunotherapy in Prostate Cancer. This has led to clinical and basic research investigating the presumptive checkpoint inhibitor B7-H3. In pursuit of understanding biomarkers and regulatory molecules of immune response, we utilize artificial intelligence, immunogenomics, spatial proteomics, transcriptomics, and clinical trial correlative samples."
+        />
       </Head>
       <div className="bg-raisin">
         <NavBar />
