@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useScroll } from "framer-motion";
 import { NextPage } from "next";
+import Head from "next/head";
 import Image from "next/image";
 import AlumniSection from "../components/AlumniSection";
 import Footer from "../components/Footer";
@@ -28,30 +29,36 @@ const Home: NextPage = () => {
   }, [scrollYProgress]);
 
   return (
-    <div className="bg-raisin">
-      <NavBar />
-      <div
-        ref={containerRef}
-        style={{ opacity: 1 - y }}
-        className="absolute top-0 left-0 h-screen w-screen"
-      >
-        <Image
-          src="/spatial.jpg"
-          alt="placeholder"
-          layout="fill"
-          objectFit="cover"
-        />
+    <>
+      <Head>
+        <title>Shenderov Lab</title>
+        <link rel="icon" href="/favicon.png" />
+      </Head>
+      <div className="bg-raisin">
+        <NavBar />
+        <div
+          ref={containerRef}
+          style={{ opacity: 1 - y }}
+          className="absolute top-0 left-0 h-screen w-screen"
+        >
+          <Image
+            src="/spatial.jpg"
+            alt="placeholder"
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
+        <main>
+          <FrontSection />
+          <ResearchSection />
+          <TeamSection />
+          <AlumniSection />
+          <NewsSection />
+          <PublicationsSection />
+        </main>
+        <Footer />
       </div>
-      <main>
-        <FrontSection />
-        <ResearchSection />
-        <TeamSection />
-        <AlumniSection />
-        <NewsSection />
-        <PublicationsSection />
-      </main>
-      <Footer />
-    </div>
+    </>
   );
 };
 
