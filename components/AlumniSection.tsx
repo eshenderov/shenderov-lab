@@ -24,6 +24,37 @@ const AlumniSection = () => {
           in risk-stratification of patients receiving general anesthesia. He
           enjoys concerts, cooking, and basketball.
         </TeamMember>
+        <TeamMember name="Ling Huang" src="/ling.jpg">
+          Ling was a resident at the Osler Medical Residency, aspiring to
+          join the field of hematology/oncology. She enjoys cooking, learning to
+          knit and going on walks with her family on the beautiful waterfront in
+          Baltimore.
+        </TeamMember>
+        <TeamMember name="John-William Sidhom" src="/john.jpg">
+          John was working part-time with the lab and now he is a clinical 
+          fellow in hematology & oncology at Weill Cornell Medicine, 
+          NewYork-Presbyterian Hospital.
+        </TeamMember>
+        <TeamMember name="Bo-Shiun Lai" src="/Bo Shiun Lai.jpg">
+          Bo-shiun was in the lab for the APL publication as a medical student. Now
+          Dr. Bo-Shiun Lai is a physician-scientist based in Vancouver, British Columbia.
+          His clinical work includes general family medicine, HIV & hepatitis C management 
+          in primary care, and treatment of menopause symptoms.
+        </TeamMember>
+        <TeamMember name="Aushna Saleem" src="/aushna.jpg">
+          Aushna was a Brooklyn College Garil Scholarship Summer Student in 2021. 
+          Presently she is in SUNY Downstate Medical School.
+        </TeamMember>
+        <TeamMember name="David Ibragimov" src="/scientist.jpg">
+          David Ibragimov was a pre-med Brooklyn College Garil Scholarship Summer Student in 2022. 
+        </TeamMember>
+        <TeamMember name="Devorah Scheinfeld" src="/scientist.jpg">
+          Devorah Scheinfeld was a pre-med Brooklyn College Garil Scholarship Summer Student in 2023.
+        </TeamMember>
+        <TeamMember name="David Pare" src="/scientist.jpg">
+          David Pare was a Brooklyn College Garil Scholarship Summer Student in 2024. 
+          He was interested in pursuing Medical Physics PhD.
+        </TeamMember>
       </div>
     </section>
   );

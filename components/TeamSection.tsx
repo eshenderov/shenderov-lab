@@ -24,11 +24,10 @@ const TeamSection = () => {
           from Johns Hopkins University. In her spare time, she enjoys caring
           for her house plants.
         </TeamMember>
-        <TeamMember name="Ling Huang" src="/ling.jpg">
-          Ling is a current resident at the Osler Medical Residency, aspiring to
-          join the field of hematology/oncology. She enjoys cooking, learning to
-          knit and going on walks with her family on the beautiful waterfront in
-          Baltimore.
+        <TeamMember name="Pan Gu" src="/pan.jpg">
+          Pan has just graduated from Hopkins and hopes to gain more research
+          experience before pursuing PhD. Maybe fun fact: Her only interest
+          during free time is dancing.
         </TeamMember>
         <TeamMember name="Justin Hyun" src="/justin.jpg">
           Justin is an undergraduate Hopkins student from San Diego majoring in

@@ -29,6 +29,7 @@ const Gallery = () => {
             alt="2022 Lab Outing to the Maryland Science Center"
           />
           <Slide src="/lab-2021-summer.jpg" alt="2021 Lab Summer" />
+          <Slide src="/lab_photo.jpg" alt="2024 Lab Summer" />
         </Swiper>
       </div>
     </div>
