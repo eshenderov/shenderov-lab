@@ -26,8 +26,7 @@ const TeamSection = () => {
         </TeamMember>
         <TeamMember name="Pan Gu" src="/pan.jpg">
           Pan has just graduated from Hopkins and hopes to gain more research
-          experience before pursuing PhD. Maybe fun fact: Her only interest
-          during free time is dancing.
+          experience before pursuing PhD. She likes dancing and photography.
         </TeamMember>
         <TeamMember name="Justin Hyun" src="/justin.jpg">
           Justin is an undergraduate Hopkins student from San Diego majoring in
