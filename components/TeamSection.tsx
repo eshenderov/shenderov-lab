@@ -28,12 +28,6 @@ const TeamSection = () => {
           Pan has just graduated from Hopkins and hopes to gain more research
           experience before pursuing PhD. She likes dancing and photography.
         </TeamMember>
-        <TeamMember name="Justin Hyun" src="/justin.jpg">
-          Justin is an undergraduate Hopkins student from San Diego majoring in
-          molecular and cellular biology. He hopes to gain research experience
-          while pursuing his interests in the medical field. When not in the
-          lab, Justin enjoys cooking and listening to music.
-        </TeamMember>
         <TeamMember name="Adam Luo" src="/adam.jpg">
           Adam is currently a third-year undergraduate at JHU majoring in
           neuroscience. He is working on various projects ranging from the deep
