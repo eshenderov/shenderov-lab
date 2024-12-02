@@ -43,7 +43,7 @@ const TeamSection = () => {
           and mechanobiology. Other interests include graphology, poetry
           writing, and podcasting.
         </TeamMember>
-        <TeamMember name="Jeffrey Schneider" src="/jeff.jpg">
+        <TeamMember name="Jeffrey Schneider" src="/Jeff.jpg">
         Jeff is currently an internal medicine resident at Johns Hopkins Bayview. 
         He plans to become a medical oncologist and is interested in focusing 
         clinically on patients with prostate cancer while developing targeted cancer 
