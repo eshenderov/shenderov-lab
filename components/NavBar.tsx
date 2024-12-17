@@ -34,6 +34,7 @@ const NavBar = () => {
         <NavItem to="team">Team</NavItem>
         <NavItem to="news">News</NavItem>
         <NavItem to="publications">Publications</NavItem>
+        <NavItem to="/tools">Tools</NavItem>
       </ul>
 
       <MobileMenuToggle open={open} handleClick={() => toggleOpen()} />

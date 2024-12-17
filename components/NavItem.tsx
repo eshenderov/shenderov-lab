@@ -1,4 +1,5 @@
-import { Link } from "react-scroll";
+import { Link as ScrollLink} from "react-scroll";
+import Link from "next/link";
 
 interface Props {
   to: string;
@@ -6,16 +7,25 @@ interface Props {
 }
 
 const NavItem = ({ to, children }: Props) => {
+  const isPageLink = to.startsWith("/")
   return (
     <li>
-      <Link
+      {isPageLink?(
+        <Link href={to}>
+          <a className="cursor-pointer text-lg font-medium text-green-apple">
+            {children}
+          </a>
+        </Link>
+      ):(
+      <ScrollLink
         className="cursor-pointer text-lg font-medium text-green-apple"
         to={to}
         duration={600}
         smooth="easeInOutQuart"
       >
         {children}
-      </Link>
+      </ScrollLink>
+      )}
     </li>
   );
 };
