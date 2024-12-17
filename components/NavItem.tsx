@@ -1,5 +1,5 @@
-import { Link as ScrollLink} from "react-scroll";
 import Link from "next/link";
+import { Link as ScrollLink} from "react-scroll";
 
 interface Props {
   to: string;
