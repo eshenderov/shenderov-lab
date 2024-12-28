@@ -1,8 +1,8 @@
 import React from 'react';
 
-const DonationInfo: React.FC = () => {
+const DonationSection: React.FC = () => {
   return (
-    <div style={{
+    <div id="donation" style={{
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
@@ -55,4 +55,4 @@ const DonationInfo: React.FC = () => {
   );
 };
 
-export default DonationInfo;
+export default DonationSection;
