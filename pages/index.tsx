@@ -11,6 +11,8 @@ import NewsSection from "../components/NewsSection";
 import PublicationsSection from "../components/PublicationsSection";
 import ResearchSection from "../components/ResearchSection";
 import TeamSection from "../components/TeamSection";
+import NewsArchiveSection from "../components/NewsArchiveSection";
+import DonationSection from "../components/DonationSection";
 
 const Home: NextPage = () => {
   const [y, setY] = useState(0);
@@ -58,7 +60,9 @@ const Home: NextPage = () => {
           <TeamSection />
           <AlumniSection />
           <NewsSection />
+          <NewsArchiveSection/>
           <PublicationsSection />
+          <DonationSection/>
         </main>
         <Footer />
       </div>

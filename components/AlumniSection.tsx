@@ -45,8 +45,16 @@ const AlumniSection = () => {
           Aushna was a Brooklyn College Garil Scholarship Summer Student in 2021. 
           Presently she is in SUNY Downstate Medical School.
         </TeamMember>
-        <TeamMember name="David Ibragimov" src="/scientist.jpg">
-          David Ibragimov was a pre-med Brooklyn College Garil Scholarship Summer Student in 2022. 
+        <TeamMember name="David Ibragimov" src="/david_ibragimov.jpg">
+        David Ibragimov is a dedicated researcher with a strong interest in oncology, 
+        inspired by his personal experiences and family history. During his two internships 
+        in the Shenderov Lab at Johns Hopkins, David contributed to projects focused on 
+        leveraging AI tools to differentiate between acute promyelocytic leukemia (APL) 
+        and acute myeloid leukemia (AML). He is passionate about combining clinical medicine 
+        and research to improve patient care, a vision shaped by his experiences working 
+        closely with Dr. Eugene Shenderov and observing his exemplary professionalism and 
+        kindness. David holds a bachelor’s degree in biology and aspires to become a physician-scientist, 
+        further advancing the field of oncology through research and innovation.
         </TeamMember>
         <TeamMember name="Devorah Scheinfeld" src="/scientist.jpg">
           Devorah Scheinfeld was a pre-med Brooklyn College Garil Scholarship Summer Student in 2023.

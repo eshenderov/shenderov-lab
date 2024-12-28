@@ -1,7 +1,7 @@
 interface Props {
   headline: string;
   date: string;
-  children: string;
+  children: React.ReactNode;
 }
 
 const NewsBlock = ({ headline, date, children }: Props) => {

@@ -49,6 +49,12 @@ const TeamSection = () => {
         clinically on patients with prostate cancer while developing targeted cancer 
         therapeutics in the laboratory.
         </TeamMember>
+        <TeamMember name="Tommy Wu" src="/tommy.jpg">
+        Tommy is currently a first-year JHU undergrad hoping to major in biophysics. 
+        He is interested in projects involving spatial biology and immunology and hopes 
+        to gain wet lab experience. In his free time, he enjoys watching soccer and tennis, 
+        reading, and playing chess.
+        </TeamMember>
         <TeamMember name="Shivang Sharma" src="/shivang.jpg">
           placeholder
         </TeamMember>

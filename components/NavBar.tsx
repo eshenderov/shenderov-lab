@@ -33,6 +33,7 @@ const NavBar = () => {
         <NavItem to="research">Research</NavItem>
         <NavItem to="team">Team</NavItem>
         <NavItem to="news">News</NavItem>
+        <NavItem to="news archive">News Archive</NavItem>
         <NavItem to="publications">Publications</NavItem>
         <NavItem to="/tools">Tools</NavItem>
       </ul>

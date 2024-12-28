@@ -32,8 +32,19 @@ const NewsSection = () => {
           voluptates, cumque rerum qui velit perspiciatis saepe possimus? Velit,
           necessitatibus.
         </NewsBlock> */}
-        <NewsBlock headline="Dr. Ling Huang Matches to Oncology Fellowship" date="November 30, 2022">
-          Dr. Huang is heading to Wash. U. in St. Louis! Congratulations!
+        <NewsBlock headline="Promising Immunotherapy to Treat Localized High-Risk Prostate Cancer" date="February , 2024">
+        For men with localized high-risk prostate cancer the HEAT trial is active across multiple locations 
+        in the United States and investigating if a promising immunotherapy can increase the cure rate of 
+        surgery and prevent cancer recurrence.
+        <br/>
+        <a
+            href="https://clinicaltrials.gov/study/NCT06014255"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: 'white', textDecoration: 'underline' }}
+          >
+            https://clinicaltrials.gov/study/NCT06014255
+          </a>
         </NewsBlock>
       </div>
     </section>
