@@ -29,11 +29,7 @@ const TeamSection = () => {
           experience before pursuing PhD. She likes dancing and photography.
         </TeamMember>
         <TeamMember name="Adam Luo" src="/adam.jpg">
-          Adam is currently a third-year undergraduate at JHU majoring in
-          neuroscience. He is working on various projects ranging from the deep
-          learning-based diagnosis of leukemia to the spatial proteogenomics of
-          brain tumors. Fun fact: he has been in the lab for over four years
-          (since high school)!
+          Placeholder.
         </TeamMember>
         <TeamMember name="Nikita Mundhara" src="/nikita.jpg">
           Dr. Mundhara is a postdoctoral fellow elucidating the B7-H3 signaling
