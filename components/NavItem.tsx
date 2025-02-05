@@ -7,6 +7,7 @@ interface Props {
 }
 
 const NavItem = ({ to, children }: Props) => {
+  const isExternalLink = to.startsWith("http"); // Check if it's an external link
   const isPageLink = to.startsWith("/")
   return (
     <li>
@@ -16,6 +17,15 @@ const NavItem = ({ to, children }: Props) => {
             {children}
           </a>
         </Link>
+      ) : isExternalLink ? (
+        <a
+          href={to}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cursor-pointer text-lg font-medium text-green-apple"
+        >
+          {children}
+        </a>
       ):(
       <ScrollLink
         className="cursor-pointer text-lg font-medium text-green-apple"
