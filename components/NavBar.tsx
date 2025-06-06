@@ -35,7 +35,7 @@ const NavBar = () => {
         <NavItem to="news">News</NavItem>
         <NavItem to="news archive">News Archive</NavItem>
         <NavItem to="publications">Publications</NavItem>
-        <NavItem to="http://54.227.218.210:3838/">Tools</NavItem>
+        <NavItem to="http://54.198.142.108:3838/">Tools</NavItem>
         <NavItem to="donation">Donation</NavItem>
       </ul>
 
