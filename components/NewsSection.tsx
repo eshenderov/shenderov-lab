@@ -46,6 +46,10 @@ const NewsSection = () => {
             https://clinicaltrials.gov/study/NCT06014255
           </a>
         </NewsBlock>
+        <NewsBlock headline="Award to Tommy" date="July , 2025">
+        <br></br><br></br>
+        Tommy received a Johns Hopkins Undergraduate Summer Research PURA 2025 award.
+        </NewsBlock>
       </div>
     </section>
   );

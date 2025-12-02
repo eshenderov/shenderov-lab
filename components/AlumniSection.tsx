@@ -57,7 +57,7 @@ const AlumniSection = () => {
         further advancing the field of oncology through research and innovation.
         </TeamMember>
         <TeamMember name="Devorah Scheinfeld" src="/scientist.jpg">
-          Devorah Scheinfeld was a pre-med Brooklyn College Garil Scholarship Summer Student in 2023.
+          Devorah Scheinfeld was a pre-med Brooklyn College Garil Scholarship Summer Student in 2023. He started at Einstein Medical School in New York City in fall 2025.
         </TeamMember>
         <TeamMember name="David Pare" src="/scientist.jpg">
           David Pare was a Brooklyn College Garil Scholarship Summer Student in 2024. 
