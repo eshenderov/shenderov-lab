@@ -61,7 +61,9 @@ const AlumniSection = () => {
         </TeamMember>
         <TeamMember name="David Pare" src="/scientist.jpg">
           David Pare was a Brooklyn College Garil Scholarship Summer Student in 2024. 
-          He was interested in pursuing Medical Physics PhD.
+          He began his Medical Physics PhD within the Biomedical Engineering Department at Stony Brook University in fall of 2025. 
+          His primary research concentrates on monolithic scintillator design geared towards improved Positron Emission Tomography (PET) 
+          resolution and spatial analysis of neurodegenerative disease using PET. 
         </TeamMember>
       </div>
     </section>
