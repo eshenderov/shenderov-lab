@@ -46,9 +46,13 @@ const NewsSection = () => {
             https://clinicaltrials.gov/study/NCT06014255
           </a>
         </NewsBlock>
-        <NewsBlock headline="Award to Tommy" date="July , 2025">
+        <NewsBlock headline="Award to Tommy Wu" date="July , 2025">
         <br></br><br></br>
-        Tommy received a Johns Hopkins Undergraduate Summer Research PURA 2025 award.
+        Tommy Wu received a Johns Hopkins Undergraduate Summer Research PURA 2025 award.
+        </NewsBlock>
+        <NewsBlock headline="Oncology Fellowship Match" date="December 15th , 2025">
+        <br></br><br></br>
+        Dr. Jeffrey Schneider Matches to Oncology Fellowship at Johns Hopkins. Congratulations!
         </NewsBlock>
       </div>
     </section>
