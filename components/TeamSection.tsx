@@ -29,7 +29,10 @@ const TeamSection = () => {
           experience before pursuing PhD. She likes dancing and photography.
         </TeamMember>
         <TeamMember name="Adam Luo" src="/adam.jpg">
-          Placeholder.
+          Adam is currently a postbac fellow at the NIH while continuing to work in the 
+          Shenderov Lab as a part-time technician. He specializes in the analysis of spatial datasets, 
+          and has previously completed a master’s thesis in glioblastoma spatial biology. 
+          Outside of the lab, he enjoys the gym, going on long runs, and pickleball.
         </TeamMember>
         <TeamMember name="Nikita Mundhara" src="/nikita.jpg">
           Dr. Mundhara is a postdoctoral fellow elucidating the B7-H3 signaling
