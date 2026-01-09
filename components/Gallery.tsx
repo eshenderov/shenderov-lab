@@ -30,6 +30,7 @@ const Gallery = () => {
           />
           <Slide src="/lab-2021-summer.jpg" alt="2021 Lab Summer" />
           <Slide src="/lab_photo.jpg" alt="2024 Lab Summer" />
+          <Slide src="/lab_2025_fall.jpg" alt="2025 Lab Fall" />
         </Swiper>
       </div>
     </div>
