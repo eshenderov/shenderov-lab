@@ -55,7 +55,7 @@ const TeamSection = () => {
         reading, and playing chess.
         </TeamMember>
         <TeamMember name="Shivang Sharma" src="/shivang.jpg">
-          placeholder
+          Placeholder
         </TeamMember>
         <TeamMember name="Eugene Shenderov" src="/eugene.png">
           Dr. Shenderov is a physician-scientist educated at University of
