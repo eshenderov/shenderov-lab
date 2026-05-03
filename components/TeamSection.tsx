@@ -54,6 +54,12 @@ const TeamSection = () => {
         to gain wet lab experience. In his free time, he enjoys watching soccer and tennis, 
         reading, and playing chess.
         </TeamMember>
+        <TeamMember name="Tommy Wu" src="/tommy.jpg">
+        Tommy is currently a second-year JHU undergrad hoping to major in biophysics. He joined the lab during freshman.
+        He is interested in projects involving spatial biology and immunology and hopes 
+        to gain wet lab experience. In his free time, he enjoys watching soccer and tennis, 
+        reading, and playing chess.
+        </TeamMember>
         <TeamMember name="Shivang Sharma" src="/shivang.jpg">
           Placeholder
         </TeamMember>
