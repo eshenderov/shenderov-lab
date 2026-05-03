@@ -54,11 +54,14 @@ const TeamSection = () => {
         to gain wet lab experience. In his free time, he enjoys watching soccer and tennis, 
         reading, and playing chess.
         </TeamMember>
-        <TeamMember name="Tommy Wu" src="/tommy.jpg">
-        Tommy is currently a second-year JHU undergrad hoping to major in biophysics. He joined the lab during freshman.
-        He is interested in projects involving spatial biology and immunology and hopes 
-        to gain wet lab experience. In his free time, he enjoys watching soccer and tennis, 
-        reading, and playing chess.
+        <TeamMember name="Si-Sim Kang" src="/sisim.jpg">
+        Dr. Kang is an immunologist trained at Johns Hopkins University, where she is 
+        completing her Ph.D. in Pathobiology. She develops next-generation precision oncology 
+        therapeutics, including bispecific, protease-activated ADC platforms, and advances 
+        spatial transcriptomics-based target discovery and validation. Her PhD work focused 
+        on developing next-generation cancer immunotherapies by engineering antigen-specific 
+        CD4 T cell responses using nanoscale platforms. Outside of the laboratory she enjoys 
+        reading, traveling, and playing cello.
         </TeamMember>
         <TeamMember name="Shivang Sharma" src="/shivang.jpg">
           Placeholder
