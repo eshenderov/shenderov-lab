@@ -11,6 +11,50 @@ const AlumniSection = () => {
       <div className="flex flex-wrap justify-center">
         {/* add alumni here. top to bottom in code equates to left to right, top to bottom in the website */}
         {/* notice the / before the file name instead of the expected public/FILE_NAME */}
+        <TeamMember name="Ling Huang" src="/ling.jpg">
+          Ling was a resident at the Osler Medical Residency, aspiring to
+          join the field of hematology/oncology. She enjoys cooking, learning to
+          knit and going on walks with her family on the beautiful waterfront in
+          Baltimore.
+        </TeamMember>
+        <TeamMember name="David Ibragimov" src="/david_ibragimov.jpg">
+        David Ibragimov is a dedicated researcher with a strong interest in oncology, 
+        inspired by his personal experiences and family history. During his two internships 
+        in the Shenderov Lab at Johns Hopkins, David contributed to projects focused on 
+        leveraging AI tools to differentiate between acute promyelocytic leukemia (APL) 
+        and acute myeloid leukemia (AML). He is passionate about combining clinical medicine 
+        and research to improve patient care, a vision shaped by his experiences working 
+        closely with Dr. Eugene Shenderov and observing his exemplary professionalism and 
+        kindness. David holds a bachelor’s degree in biology and aspires to become a physician-scientist, 
+        further advancing the field of oncology through research and innovation.
+        </TeamMember>
+        <TeamMember name="Bo-Shiun Lai" src="/Bo Shiun Lai.jpg">
+          Bo-shiun was in the lab for the APL publication as a medical student. Now
+          Dr. Bo-Shiun Lai is a physician-scientist based in Vancouver, British Columbia.
+          His clinical work includes general family medicine, HIV & hepatitis C management 
+          in primary care, and treatment of menopause symptoms.
+        </TeamMember>
+        <TeamMember name="Nikita Mundhara" src="/nikita.jpg">
+          Dr. Mundhara is a postdoctoral fellow elucidating the B7-H3 signaling
+          pathway, involving spatial transcriptomics and CRISPR knockouts in
+          prostate cancer cell lines and mouse models. Her Ph.D. encompasses the
+          intricate crosstalk between actin and microtubules in cell physiology
+          and mechanobiology. Other interests include graphology, poetry
+          writing, and podcasting. She has moved to a job in industry at Thermofisher.
+        </TeamMember>
+        <TeamMember name="David Pare" src="/scientist.jpg">
+          David Pare was a Brooklyn College Garil Scholarship Summer Student in 2024. 
+          He began his Medical Physics PhD within the Biomedical Engineering Department at Stony Brook University in fall of 2025. 
+          His primary research concentrates on monolithic scintillator design geared towards improved Positron Emission Tomography (PET) 
+          resolution and spatial analysis of neurodegenerative disease using PET. 
+        </TeamMember>
+        <TeamMember name="Aushna Saleem" src="/aushna.jpg">
+          Aushna was a Brooklyn College Garil Scholarship Summer Student in 2021. 
+          Presently she is in SUNY Downstate Medical School.
+        </TeamMember>
+        <TeamMember name="Devorah Scheinfeld" src="/scientist.jpg">
+          Devorah Scheinfeld was a pre-med Brooklyn College Garil Scholarship Summer Student in 2023. He started at Einstein Medical School in New York City in fall 2025.
+        </TeamMember>
         <TeamMember name="Ingharan Siddarthan" src="/inghu.png">
           Ingharan (Inghu) Siddarthan was a member of the lab from June 2018
           until May 2021. He worked with Dr. Sidholm, Dr. Shenderov, and others
@@ -24,54 +68,10 @@ const AlumniSection = () => {
           in risk-stratification of patients receiving general anesthesia. He
           enjoys concerts, cooking, and basketball.
         </TeamMember>
-        <TeamMember name="Ling Huang" src="/ling.jpg">
-          Ling was a resident at the Osler Medical Residency, aspiring to
-          join the field of hematology/oncology. She enjoys cooking, learning to
-          knit and going on walks with her family on the beautiful waterfront in
-          Baltimore.
-        </TeamMember>
         <TeamMember name="John-William Sidhom" src="/john.jpg">
           John was working part-time with the lab and now he is a clinical 
           fellow in hematology & oncology at Weill Cornell Medicine, 
           NewYork-Presbyterian Hospital.
-        </TeamMember>
-        <TeamMember name="Bo-Shiun Lai" src="/Bo Shiun Lai.jpg">
-          Bo-shiun was in the lab for the APL publication as a medical student. Now
-          Dr. Bo-Shiun Lai is a physician-scientist based in Vancouver, British Columbia.
-          His clinical work includes general family medicine, HIV & hepatitis C management 
-          in primary care, and treatment of menopause symptoms.
-        </TeamMember>
-        <TeamMember name="Aushna Saleem" src="/aushna.jpg">
-          Aushna was a Brooklyn College Garil Scholarship Summer Student in 2021. 
-          Presently she is in SUNY Downstate Medical School.
-        </TeamMember>
-        <TeamMember name="David Ibragimov" src="/david_ibragimov.jpg">
-        David Ibragimov is a dedicated researcher with a strong interest in oncology, 
-        inspired by his personal experiences and family history. During his two internships 
-        in the Shenderov Lab at Johns Hopkins, David contributed to projects focused on 
-        leveraging AI tools to differentiate between acute promyelocytic leukemia (APL) 
-        and acute myeloid leukemia (AML). He is passionate about combining clinical medicine 
-        and research to improve patient care, a vision shaped by his experiences working 
-        closely with Dr. Eugene Shenderov and observing his exemplary professionalism and 
-        kindness. David holds a bachelor’s degree in biology and aspires to become a physician-scientist, 
-        further advancing the field of oncology through research and innovation.
-        </TeamMember>
-        <TeamMember name="Devorah Scheinfeld" src="/scientist.jpg">
-          Devorah Scheinfeld was a pre-med Brooklyn College Garil Scholarship Summer Student in 2023. He started at Einstein Medical School in New York City in fall 2025.
-        </TeamMember>
-        <TeamMember name="David Pare" src="/scientist.jpg">
-          David Pare was a Brooklyn College Garil Scholarship Summer Student in 2024. 
-          He began his Medical Physics PhD within the Biomedical Engineering Department at Stony Brook University in fall of 2025. 
-          His primary research concentrates on monolithic scintillator design geared towards improved Positron Emission Tomography (PET) 
-          resolution and spatial analysis of neurodegenerative disease using PET. 
-        </TeamMember>
-        <TeamMember name="Nikita Mundhara" src="/nikita.jpg">
-          Dr. Mundhara is a postdoctoral fellow elucidating the B7-H3 signaling
-          pathway, involving spatial transcriptomics and CRISPR knockouts in
-          prostate cancer cell lines and mouse models. Her Ph.D. encompasses the
-          intricate crosstalk between actin and microtubules in cell physiology
-          and mechanobiology. Other interests include graphology, poetry
-          writing, and podcasting. She has moved to a job in industry at Thermofisher.
         </TeamMember>
       </div>
     </section>

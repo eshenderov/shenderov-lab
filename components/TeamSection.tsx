@@ -24,9 +24,23 @@ const TeamSection = () => {
           from Johns Hopkins University. In her spare time, she enjoys caring
           for her house plants.
         </TeamMember>
+        <TeamMember name="Zoe Dorff" src="/scientist.jpg">
+        Zoe is currently a fourth-year JHU undergraduate majoring in chemistry. She joined the lab during her sophomore year. 
+        She is interested in projects involving molecular and cellular biology and gaining wet lab skills. 
+        In her free time, she enjoys activities such as playing basketball and tennis.
+        </TeamMember>
         <TeamMember name="Pan Gu" src="/pan.jpg">
           Pan has just graduated from Hopkins and hopes to gain more research
           experience before pursuing PhD. She likes dancing and photography.
+        </TeamMember>
+        <TeamMember name="Si-Sim Kang" src="/sisim.jpg">
+        Dr. Kang is an immunologist trained at Johns Hopkins University, where she is 
+        completing her Ph.D. in Pathobiology. She develops next-generation precision oncology 
+        therapeutics, including bispecific, protease-activated ADC platforms, and advances 
+        spatial transcriptomics-based target discovery and validation. Her PhD work focused 
+        on developing next-generation cancer immunotherapies by engineering antigen-specific 
+        CD4 T cell responses using nanoscale platforms. Outside of the laboratory she enjoys 
+        reading, traveling, and playing cello.
         </TeamMember>
         <TeamMember name="Adam Luo" src="/adam.jpg">
           Adam is currently a postbac fellow at the NIH while continuing to work in the 
@@ -40,23 +54,24 @@ const TeamSection = () => {
         clinically on patients with prostate cancer while developing targeted cancer 
         therapeutics in the laboratory.
         </TeamMember>
+        <TeamMember name="Shivang Sharma" src="/shivang.jpg">
+          Placeholder
+        </TeamMember>
+        <TeamMember name="Cathy Shen" src="/scientist.jpg">
+        Cathy earned her Master’s degree in Molecular Microbiology and Immunology from Hopkins 
+        and joined the lab as a part-time research technician. She supports clinical blood sample processing, 
+        cancer cell line culture, and the CellScape project for assessing immune checkpoint markers. 
+        She will join the PhD program in Immunology at Scripps for her doctoral training.
+        </TeamMember>
+        <TeamMember name="Reshmi Bebin Suresh" src="/reshmi.jpg">
+        Reshmi is a Master’s student in Bioinformatics with a keen interest in computational biology and data science. 
+        In her free time, she enjoys dancing, playing badminton and travelling.
+        </TeamMember>
         <TeamMember name="Tommy Wu" src="/tommy.jpg">
         Tommy is currently a second-year JHU undergrad hoping to major in biophysics. He joined the lab during freshman.
         He is interested in projects involving spatial biology and immunology and hopes 
         to gain wet lab experience. In his free time, he enjoys watching soccer and tennis, 
         reading, and playing chess.
-        </TeamMember>
-        <TeamMember name="Si-Sim Kang" src="/sisim.jpg">
-        Dr. Kang is an immunologist trained at Johns Hopkins University, where she is 
-        completing her Ph.D. in Pathobiology. She develops next-generation precision oncology 
-        therapeutics, including bispecific, protease-activated ADC platforms, and advances 
-        spatial transcriptomics-based target discovery and validation. Her PhD work focused 
-        on developing next-generation cancer immunotherapies by engineering antigen-specific 
-        CD4 T cell responses using nanoscale platforms. Outside of the laboratory she enjoys 
-        reading, traveling, and playing cello.
-        </TeamMember>
-        <TeamMember name="Shivang Sharma" src="/shivang.jpg">
-          Placeholder
         </TeamMember>
         <TeamMember name="Eugene Shenderov" src="/eugene.png">
           Dr. Shenderov is a physician-scientist educated at University of
