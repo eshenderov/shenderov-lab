@@ -34,14 +34,6 @@ const TeamSection = () => {
           and has previously completed a master’s thesis in glioblastoma spatial biology. 
           Outside of the lab, he enjoys the gym, going on long runs, and pickleball.
         </TeamMember>
-        <TeamMember name="Nikita Mundhara" src="/nikita.jpg">
-          Dr. Mundhara is a postdoctoral fellow elucidating the B7-H3 signaling
-          pathway, involving spatial transcriptomics and CRISPR knockouts in
-          prostate cancer cell lines and mouse models. Her Ph.D. encompasses the
-          intricate crosstalk between actin and microtubules in cell physiology
-          and mechanobiology. Other interests include graphology, poetry
-          writing, and podcasting.
-        </TeamMember>
         <TeamMember name="Jeffrey Schneider" src="/Jeff.jpg">
         Jeff is currently an internal medicine resident at Johns Hopkins Bayview. 
         He plans to become a medical oncologist and is interested in focusing 

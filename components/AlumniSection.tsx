@@ -65,6 +65,14 @@ const AlumniSection = () => {
           His primary research concentrates on monolithic scintillator design geared towards improved Positron Emission Tomography (PET) 
           resolution and spatial analysis of neurodegenerative disease using PET. 
         </TeamMember>
+        <TeamMember name="Nikita Mundhara" src="/nikita.jpg">
+          Dr. Mundhara is a postdoctoral fellow elucidating the B7-H3 signaling
+          pathway, involving spatial transcriptomics and CRISPR knockouts in
+          prostate cancer cell lines and mouse models. Her Ph.D. encompasses the
+          intricate crosstalk between actin and microtubules in cell physiology
+          and mechanobiology. Other interests include graphology, poetry
+          writing, and podcasting. She has moved to a job in industry at Thermofisher.
+        </TeamMember>
       </div>
     </section>
   );
